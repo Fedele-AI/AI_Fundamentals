@@ -12,7 +12,7 @@
 
 </div>
 
-> [!WARNING]
+> [!CAUTION]
 > This project is an active work in progress. Please check back later for our first release TBA!
 
 ## Introduction

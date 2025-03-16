@@ -20,7 +20,7 @@ The Boltzmann Machine, introduced by Geoffrey Hinton and Terry Sejnowski, is an 
 
 <div align="center">
 
-<img src="./figures/boltzman.png" alt="Architecture of a Restricted Boltzmann Machine (RBM)" width="50%"> 
+<img src="./Figures/boltzman.png" alt="Architecture of a Restricted Boltzmann Machine (RBM)" width="50%"> 
 
 *Visible units (bottom) are connected to hidden units (top) via weights (dashed lines), with no intra-layer connections.*
 

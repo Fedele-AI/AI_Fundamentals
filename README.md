@@ -67,3 +67,11 @@ This work is licensed under the **GNU Free Documentation License 1.3 (GFDL 1.3)*
 
 > [!IMPORTANT]
 > If you're wanting to contribute to this repository, [you'll need to read and accept our contributor code of conduct](./CODE_OF_CONDUCT.md). Fedele_AI is committed to creating a welcoming and collaborative environment for everyone, and your participation is a crucial part of that! For issues, ideas, or questions - please see the `Discussions` tab above. Thanks, and [Go Jackets](https://gatech.edu)!
+
+<div align="center">
+  <p align="center">
+    <a href="https://coe.gatech.edu" target="_blank">
+      <img src="https://brand.gatech.edu/sites/default/files/inline-images/Unit-examples-01.png" alt="Georgia Tech Logo" style="width:50%;">
+    </a>
+  </p>
+</div>

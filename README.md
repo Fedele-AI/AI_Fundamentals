@@ -12,6 +12,9 @@
 
 </div>
 
+> [!WARNING]
+> This project is an active work in progress. Please check back later for our first release TBA!
+
 ## Introduction
 Artificial Intelligence (AI) is an exciting and rapidly evolving field of computer science that focuses on building systems capable of intelligent behavior. From recognizing speech and images to translating languages and making complex decisions, AI systems can learn from data, identify patterns, and perform tasks that typically require human intelligence.
 

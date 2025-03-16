@@ -60,7 +60,7 @@ This work is licensed under the **GNU Free Documentation License 1.3 (GFDL 1.3)*
 - ✅ **You can** copy, modify, and distribute this content.
 - 🚫 **You cannot** impose additional restrictions beyond the GFDL 1.3.
 - 📜 **You must** give proper attribution and include the license notice in all copies.
-- 📖 **For full details**, see [GNU FDL 1.3](LICENSE.txt).
+- 📖 **For full details**, see [our license file](LICENSE.txt).
 
 ---
 

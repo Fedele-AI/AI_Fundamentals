@@ -40,6 +40,19 @@ This series covers the following topics, and you are encouraged to read the modu
 
 ---
 
+## About
+This educational series has been meticulously crafted to serve a diverse audience of learners, from those taking their very first steps into artificial intelligence to those with prior exposure seeking to deepen their understanding. The curriculum follows a carefully designed progression that builds foundational knowledge while gradually introducing more complex concepts.
+
+For beginners, we've taken special care to explain concepts clearly with intuitive examples and visualizations that make abstract ideas concrete. Meanwhile, more experienced learners will find sufficient depth and advanced material to expand their knowledge boundaries. If you already possess familiarity with certain fundamental topics, you're encouraged to navigate directly to modules that challenge your current expertise level.
+
+Developed at the prestigious [Georgia Institute of Technology](https://www.gatech.edu/) by faculty and researchers from the [College of Engineering](https://coe.gatech.edu/), this series represents our commitment to making high-quality AI education accessible to everyone, regardless of background or prior technical experience. The course materials reflect both cutting-edge research and time-tested pedagogical approaches refined in Georgia Tech's classrooms.
+
+Our mission extends beyond merely teaching algorithms and techniques—we aim to democratize access to AI knowledge, foster critical thinking about AI's capabilities and limitations, and empower a new generation of innovators to apply these tools ethically and creatively. The interdisciplinary approach integrates perspectives from computer science, mathematics, engineering, and cognitive science to provide a comprehensive understanding of how artificial intelligence systems work and evolve.
+
+We sincerely hope this learning journey proves valuable as you explore the fascinating world of artificial intelligence, whether your goals involve academic advancement, professional development, or personal enrichment. Your feedback is welcomed as we continuously strive to improve and expand these educational resources.
+
+---
+
 ## License
 This work is licensed under the **GNU Free Documentation License 1.3 (GFDL 1.3)**. You are free to copy, modify, and distribute this document under the terms of the GFDL 1.3, provided that you retain this notice and provide attribution.
 
@@ -53,4 +66,4 @@ This work is licensed under the **GNU Free Documentation License 1.3 (GFDL 1.3)*
 ---
 
 > [!IMPORTANT]
-> If you're wanting to contribute to this repository, [you'll need to read and accept our contributor code of conduct](./CODE_OF_CONDUCT.md). Fedele_AI is committed to creating a welcoming and collaborative environment for everyone, and your participation is a crucial part of that! For issues, ideas, or questions - please see the `Discussions` tab above.
+> If you're wanting to contribute to this repository, [you'll need to read and accept our contributor code of conduct](./CODE_OF_CONDUCT.md). Fedele_AI is committed to creating a welcoming and collaborative environment for everyone, and your participation is a crucial part of that! For issues, ideas, or questions - please see the `Discussions` tab above. Thanks, and [Go Jackets](https://gatech.edu)!

@@ -4,7 +4,7 @@
 
 # AI Fundamentals
 
-### Written by: [Dr. Francesco Fedele](https://ce.gatech.edu/directory/person/francesco-fedele) & [Kenneth (Alex) Jenkins](https://alexj.io)
+### Written by: [Dr. Francesco Fedele](https://scholar.google.com/citations?user=iaHIkTAAAAAJ) & [Kenneth (Alex) Jenkins](https://alexj.io)
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 

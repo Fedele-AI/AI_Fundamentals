@@ -71,7 +71,7 @@ This work is licensed under the **GNU Free Documentation License 1.3 (GFDL 1.3)*
 <div align="center">
   <p align="center">
     <a href="https://coe.gatech.edu" target="_blank">
-      <img src="https://brand.gatech.edu/sites/default/files/inline-images/Unit-examples-01.png" alt="Georgia Tech Logo" style="width:50%;">
+      <img src="./aibasics/Figures/gatech_logo.svg" alt="Georgia Tech Logo" style="width:50%;">
     </a>
   </p>
 </div>

@@ -4,9 +4,9 @@
 
 # AI Fundamentals
 
-<img src="./assets/img/ART_AND_AI.png" alt="AI" width="300" height="300">
-
 ### Written by: [Dr. Francesco Fedele](https://scholar.google.com/citations?user=iaHIkTAAAAAJ) & [Kenneth (Alex) Jenkins](https://alexj.io)
+
+<img src="./assets/img/AI_Fedele.png" alt="AI" width="300" height="300">
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 <img src="./aibasics/Figures/GFDL_Logo.svg" alt="GFDL_Logo" style="width:20%;">

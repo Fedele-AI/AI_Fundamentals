@@ -4,7 +4,7 @@
 
 # Linear Perceptron
 
-<img src="./Figures/LinearPerceptron.png" alt="Linear Perceptron" width="400" height="200">
+<img src="./Figures/LinearPerceptron.png" alt="Linear Perceptron" width="40%">
 
 </div>
 

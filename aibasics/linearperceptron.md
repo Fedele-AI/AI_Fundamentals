@@ -4,7 +4,7 @@
 
 # Linear Perceptron
 
-<img src="./aibasics/Figures/LinearPerceptron.png" alt="Linear Perceptron" width="300" height="300">
+<img src="./Figures/LinearPerceptron.png" alt="Linear Perceptron" width="400" height="200">
 
 </div>
 

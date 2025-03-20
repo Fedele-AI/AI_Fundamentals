@@ -4,7 +4,7 @@
 
 # Normalizing Flow
 
-<img src="./Figures/Normalizing_flow.png" alt="Normalizing flow" width="300" height="300">
+<img src="./Figures/Normalizing_flow.png" alt="Normalizing flow" width="30%">
 
 </div>
 

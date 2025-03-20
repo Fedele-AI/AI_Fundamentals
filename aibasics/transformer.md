@@ -4,6 +4,8 @@
 
 # Transformers
 
+<img src="./Figures/transfomers.png" alt="Transformer" width="40%">
+
 </div>
 
 
@@ -56,19 +58,12 @@ Language rules are learned in a distributed manner through self-attention mechan
 
 Through training, the model identifies recurring syntactic and semantic structures, forming clusters of word patterns such as noun-verb-object relationships. These clusters emerge as peaks in the learned landscape of attention distributions, where high-density regions correspond to common linguistic patterns. The probabilistic nature of the transformer allows it to generalize rules beyond memorization, capturing variations in syntax and meaning across contexts.
 
-<div align="center">
-
-<img src="./Figures/transfomers.png" alt="Long-range interacting particles on a sphere" width="50%">
-
-*FIGURE 1: Illustration of a transformer*  
-
-</div>
 
 <div align="center">
 
 <img src="./Figures/transformers2.png" alt="Long-range interacting particles on a sphere" width="50%">
 
-*FIGURE 2: Long-range interacting particles on a sphere. Particles form clusters based on their interactions, visualized with energy fields (dashed lines). The clustering influences the system's next state, analogous to how attention weights determine the next token or image in a Transformer sequence.*  
+*FIGURE 1: Long-range interacting particles on a sphere. Particles form clusters based on their interactions, visualized with energy fields (dashed lines). The clustering influences the system's next state, analogous to how attention weights determine the next token or image in a Transformer sequence.*  
 
 </div>
 

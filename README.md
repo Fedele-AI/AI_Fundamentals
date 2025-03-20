@@ -6,10 +6,7 @@
 
 ### Written by: [Dr. Francesco Fedele](https://scholar.google.com/citations?user=iaHIkTAAAAAJ) & [Kenneth (Alex) Jenkins](https://alexj.io)
 
-<img src="./assets/img/AI_Fedele.png" alt="AI" width="300" height="300">
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-<img src="./aibasics/Figures/GFDL_Logo.svg" alt="GFDL_Logo" style="width:20%;">
+<img src="./aibasics/Figures/AI_Fedele.png" alt="AI" width="400" height="400">
 
 </div>
 
@@ -53,6 +50,12 @@ Our mission extends beyond merely teaching algorithms and techniques — we aim 
 We sincerely hope this learning journey proves valuable as you explore the fascinating world of artificial intelligence, whether your goals involve academic advancement, professional development, or personal enrichment! Your feedback is welcomed as we continuously strive to improve and expand these educational resources.
 
 ---
+<div align="center">
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+<img src="./aibasics/Figures/GFDL_Logo.svg" alt="GFDL_Logo" style="width:20%;">
+
+</div>
 
 ## License
 This work is licensed under the **GNU Free Documentation License 1.3 (GFDL 1.3)**. You are free to copy, modify, and distribute this document under the terms of the GFDL 1.3, provided that you retain this notice and provide attribution.

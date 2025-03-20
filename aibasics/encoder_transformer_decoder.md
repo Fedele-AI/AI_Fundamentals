@@ -4,6 +4,8 @@
 
 # Autoencoders
 
+<img src="./Figures/DNN2.png" alt="Autoencoder" width="40%">
+
 </div>
 
 An **autoencoder** is a type of neural network used for unsupervised learning that learns to compress (encode) data into a compact representation and then reconstruct (decode) it back to its original form. It consists of two main parts:

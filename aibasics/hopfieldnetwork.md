@@ -4,7 +4,7 @@
 
 # Hopfield Network
 
-<img src="./Figures/Hopfield.png" alt="Hopfield Network" width="500" height="300">
+<img src="./Figures/Hopfield.png" alt="Hopfield Network" width="400" height="250">
 
 </div>
 

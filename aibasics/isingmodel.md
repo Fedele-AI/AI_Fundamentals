@@ -4,6 +4,8 @@
 
 # Ising Model
 
+<img src="./Figures/Ising.png" alt="Linear Perceptron" width="26%">
+
 </div>
 
 ### Relation to Neural Networks

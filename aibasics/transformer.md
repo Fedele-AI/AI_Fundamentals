@@ -61,7 +61,7 @@ Through training, the model identifies recurring syntactic and semantic structur
 
 <div align="center">
 
-<img src="./Figures/transformers2.png" alt="Long-range interacting particles on a sphere" width="50%">
+<img src="./Figures/transformers2.png" alt="Long-range interacting particles on a sphere" width="40%">
 
 *FIGURE 1: Long-range interacting particles on a sphere. Particles form clusters based on their interactions, visualized with energy fields (dashed lines). The clustering influences the system's next state, analogous to how attention weights determine the next token or image in a Transformer sequence.*  
 

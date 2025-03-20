@@ -4,7 +4,7 @@
 
 # Autoencoders
 
-<img src="./Figures/Autoencoder.png" alt="Autoencoder" width="300" height="300">
+<img src="./Figures/Autoencoder.png" alt="Autoencoder" width="30%">
 
 </div>
 

@@ -4,6 +4,8 @@
 
 # Boltzmann Machine
 
+<img src="./Figures/RBM.png" alt="Boltzmann Machine" width="450" height="250">
+
 </div>
 
 ## Introduction

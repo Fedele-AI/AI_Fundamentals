@@ -99,3 +99,7 @@ One key limitation of the perceptron is that it can only model linearly separabl
 
 ### Video 4:  Python Implementation of a Linear Perceptron 
 [![Watch the video](https://img.youtube.com/vi/TJo4r1cm1y8/0.jpg)](https://youtu.be/TJo4r1cm1y8)
+
+---
+
+[⬅️ Previous](isingmodel.md) | [Next ➡️](deepperceptron.md)

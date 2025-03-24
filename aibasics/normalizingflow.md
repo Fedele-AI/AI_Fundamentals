@@ -63,3 +63,7 @@ By learning these transformations, we can:
 2. **Understand how common or rare a cat balloon is** (estimate probabilities).  
 
 It's like having a magic recipe to turn simple shapes into detailed objects and back again—helping AI better understand and create the world!
+
+---
+
+[⬅️ Previous](boltzmann.md) | [Next ➡️](autoencoders.md)

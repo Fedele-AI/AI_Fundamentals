@@ -1,5 +1,7 @@
 # License
-- Text is licensed under the [GNU Free Documentation License 1.3](https://www.gnu.org/licenses/fdl-1.3.en.html). To view a copy of this license, visit [https://www.gnu.org/licenses/fdl-1.3.en.html](https://www.gnu.org/licenses/fdl-1.3.en.html).
+This textbook contains code samples and documentation. Due to license incompatibilities, this project is dual-licensed under the GPLv3 and the GFDL 1.3. Please ensure compliance with both licenses when using, modifying, or distributing this material.
+
+- Documentation is licensed under the [GNU Free Documentation License 1.3](https://www.gnu.org/licenses/fdl-1.3.en.html). To view a copy of this license, visit [https://www.gnu.org/licenses/fdl-1.3.en.html](https://www.gnu.org/licenses/fdl-1.3.en.html).
 
 - Code is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html). To view a copy of this license, visit [https://www.gnu.org/licenses/gpl-3.0.en.html](https://www.gnu.org/licenses/gpl-3.0.en.html).
 

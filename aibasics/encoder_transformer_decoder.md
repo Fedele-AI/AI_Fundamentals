@@ -51,13 +51,13 @@ The architecture comprises a **Bidirectional CNN Encoder**, a **Transformer Deco
     - Max Pooling: $2 \times 2$, stride 2, output: $(H/2, W/2, 64)$.
     - Conv Layer 2: $128$ filters, $3 \times 3$ kernel, stride 1, ReLU, output: $(H/2, W/2, 128)$.
     - Flatten: Reshape to $D = (H/2) \cdot (W/2) \cdot 128$ per image.
-  - **Bidirectional Processing**: 
-    - Each sequence $S_n$ is processed as a time series of feature vectors.
-    - A Bidirectional LSTM (BiLSTM) operates over the sequence:
-      - Forward: $h_{nt} = \text{LSTM}_\text{fwd}(f(s_{nt}), h_{n,t-1})$
-      - Backward: $h_{nt} = \text{LSTM}_\text{bwd}(f(s_{nt}), h_{n,t+1})$
-      - Combined: $h_{nt} = [h_{nt}; h_{nt}] \in \mathbb{R}^{2H}$, where $H$ is the LSTM hidden size.
-    - Output: $H_n \in \mathbb{R}^{T \times 2H}$ per sequence.
+- **Bidirectional Processing**: 
+  - Each sequence $S_n$ is processed as a time series of feature vectors.
+  - A Bidirectional LSTM (BiLSTM) operates over the sequence:
+    - Forward: $h_{nt} = \text{LSTM}\_\text{fwd}(f(s_{nt}), h_{n,t-1})$
+    - Backward: $h_{nt} = \text{LSTM}\_\text{bwd}(f(s_{nt}), h_{n,t+1})$
+    - Combined: $h_{nt} = [h_{nt}; h_{nt}] \in \mathbb{R}^{2H}$, where $H$ is the LSTM hidden size.
+  - Output: $H_n \in \mathbb{R}^{T \times 2H}$ per sequence.
   - **Aggregation**: Attention or pooling over $H_n$ across $N$ sequences yields context $C \in \mathbb{R}^{T' \times 2H}$.
 - **Purpose**: Extracts spatial features with CNNs and captures bidirectional sequence context.
 

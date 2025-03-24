@@ -496,3 +496,7 @@ Transformers are designed to handle variable sequence lengths up to their maximu
 Mixture of Experts is a way to make model's using transformers more efficient by only using parts of it at a time. Instead of every part of the model working on every input, the input is routed to a few specialized "experts" (smaller neural networks) that are best suited for it. A gating mechanism decides which experts to activate, so the model can handle more complex tasks without always using all its parameters, saving computation.
 
 This approach lets the model scale up in size without becoming much slower. For example, a transformer with MoE might have hundreds of experts, but only 2-4 are used per input. This way, the model gets the benefits of being very large (better performance) while keeping computation low (efficiency). It’s like having a team of specialists, where only the right ones step in to help for each task.
+
+---
+
+[⬅️ Previous](autoencoders.md) | [Next ➡️](encoder_transformer_decoder.md)

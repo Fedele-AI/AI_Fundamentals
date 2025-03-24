@@ -29,8 +29,6 @@ Autoencoders with latent space interpolation are often used for **generative tas
 ### Video 2. Latent Space Interpolation & Image style transfer 
 [![Watch the video](https://img.youtube.com/vi/qVYRzunQiAQ/0.jpg)](https://www.youtube.com/watch?v=qVYRzunQiAQ)
 
+---
 
-
-
-
-
+[⬅️ Previous](normalizingflow.md) | [Next ➡️](transformer.md)

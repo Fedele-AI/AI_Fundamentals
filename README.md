@@ -25,8 +25,8 @@ Throughout this series, you'll explore foundational models, mathematical formula
 <div align="center">
 
 <img src="./aibasics/Figures/GPLV3_Logo.svg" alt="GPLv3_Logo" style="width:15%; display:inline-block;">
-<img src="./aibasics/Figures/GFDL_Logo.svg" alt="GFDL_Logo" style="width:15%; display:inline-block;">
 <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" style="width:15%; display:inline-block;">
+<img src="./aibasics/Figures/GFDL_Logo.svg" alt="GFDL_Logo" style="width:15%; display:inline-block;">
 
 </div>
 

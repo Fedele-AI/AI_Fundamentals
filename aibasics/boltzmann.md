@@ -177,3 +177,6 @@ Gibbs sampling is simpler than Metropolis-Hastings for Boltzmann Machines becaus
 ### Video 1: Boltzmann Machine made simple
 [![Watch the video](https://img.youtube.com/vi/CgA-O-iKmY8/0.jpg)](https://youtu.be/CgA-O-iKmY8)
 
+---
+
+[⬅️ Previous](hopfieldnetwork.md) | [Next ➡️](normalizingflow.md)

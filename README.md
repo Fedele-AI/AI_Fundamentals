@@ -76,7 +76,7 @@ The code provided in this repository is licensed under the **GNU General Public 
 - ✅ **You can** copy, modify, and distribute the content and code.
 - 🚫 **You cannot** impose additional restrictions beyond the GFDL 1.3 for documentation and GPLv3 for code.
 - 📜 **You must** give proper attribution, include the license notice in all copies, and release any derivative works of the code under the same license.
-- 👨‍⚖️ **For full details**, see [our license file](LICENSE.txt).
+- 👨‍⚖️ **For full details**, see [our license file](LICENSE.md).
 
 ---
 

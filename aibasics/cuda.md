@@ -44,3 +44,7 @@ In the world of Python programming, CUDA helps us use the "many hands" of the GP
 
 ### Video 3. Intro to CUDA (by NVIDIA)
 [![Watch the video](https://img.youtube.com/vi/IzU4AVcMFys/0.jpg)](https://www.youtube.com/watch?v=IzU4AVcMFys)
+
+---
+
+[⬅️ Previous](encoder_transformer_decoder.md)

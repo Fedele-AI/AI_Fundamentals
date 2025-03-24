@@ -63,7 +63,6 @@ We sincerely hope this learning journey proves valuable as you explore the fasci
 ---
 
 ## License
-This work is licensed under two different licenses to distinguish between the documentation and the code.
 
 ### Documentation License 📃
 The documentation is licensed under the **GNU Free Documentation License 1.3 (GFDL 1.3)**. You are free to copy, modify, and distribute this document under the terms of the GFDL 1.3, provided that you retain this notice and provide attribution.

@@ -13,17 +13,15 @@ The primary objectives of this project are:
 ### Structure
 This repository is organized into several sections:
 1. **Tutorials and Guides:** Step-by-step instructions and tutorials to help you get started with AI concepts and tools.
-2. **Research Papers:** A collection of research papers and articles that provide in-depth knowledge on various AI topics.
-3. **Code Samples:** Example code snippets and projects that demonstrate the implementation of AI algorithms.
-4. **Datasets:** Curated datasets for training and testing AI models.
-5. **Discussion Forum:** A platform for discussing ideas, asking questions, and sharing insights with fellow researchers.
+2. **Code Samples:** Example code snippets and projects that demonstrate the implementation of AI algorithms.
+3. **Datasets:** Curated FOSS datasets for training and testing AI models.
+4. **Discussion Forum:** A platform for discussing ideas, asking questions, and sharing insights with fellow researchers.
 
 ### Getting Started
 To get started with the AI Fundamentals research project, we recommend the following steps:
 1. **Clone the Repository:** Download the repository to your local machine using `git clone`.
-2. **Install Dependencies:** Follow the instructions in the `README.md` file to install the necessary software and libraries.
-3. **Explore the Tutorials:** Begin with the introductory tutorials to familiarize yourself with the basics of AI and machine learning.
-4. **Engage with the Community:** Join the discussion forum to connect with other researchers and participate in collaborative projects.
+2. **Explore the Tutorials:** Begin with the introductory tutorials to familiarize yourself with the basics of AI and machine learning.
+3. **Engage with the Community:** Join the discussion forum to connect with other researchers and participate in collaborative projects!
 
 We are excited to have you join us on this journey to advance the field of artificial intelligence. Together, we can push the boundaries of what is possible and create innovative solutions to real-world problems.
 
@@ -40,9 +38,7 @@ Dr. Fedele is now expanding his research to include artificial intelligence, par
 Dr. Fedele has published numerous scholarly journal papers and papers in peer-reviewed conference proceedings. His research has appeared in high-impact journals such as Physical Review Letters, IEEE Transactions on Image Processing, Journal of Fluid Mechanics, IEEE Transactions on Geosciences and Remote Sensing, Journal of Physical Oceanography, and Ocean Modeling.
 
 ## Kenneth Alexander Jenkins
-Kenneth (Alex) Jenkins is a computer engineering student specializing in cybersecurity and system architecture. With a strong academic background and hands-on technical experience, Alex has developed expertise in areas such as programming, artificial intelligence, and digital forensics. As a teaching assistant for a course on Art & Generative AI, Alex collaborates with faculty to develop instructional materials and lead study sessions, helping students explore the intersection of AI, creativity, and technology. His research focuses on integrating advanced AI models with brain-computer interfaces (BCI) to produce real-time, interactive artistic experiences, combining technical innovation with creative expression. 
-
-Alex's industry experience spans multiple roles in engineering and cybersecurity. He has contributed to the development of AI-driven tools that improve operational efficiency and enhance cybersecurity practices. Notably, he designed an AI-powered system that streamlined internal workflows, resulting in significant cost savings. Alex also has experience in automating vulnerability detection and improving system security. His work extends to open-source projects, including tools for file management and AI integration, reflecting a commitment to technological advancement and collaborative innovation. [See his web portfolio here](https://alexj.io).
+[Kenneth (Alex) Jenkins](https://alexj.io) is a Computer Engineering student at the [Georgia Institute of Technology](https://www.gatech.edu) specializing in cybersecurity and systems architecture. With a strong academic background and hands-on technical experience, Alex has developed expertise in areas such as programming, artificial intelligence, and digital forensics. As a teaching assistant for a course on Art & Generative AI, Alex collaborates with faculty to develop instructional materials and lead study sessions, helping students explore the intersection of AI, creativity, and technology. His research focuses on integrating advanced AI models with brain-computer interfaces (BCI) to produce real-time, interactive artistic experiences, combining technical innovation with creative expression. 
 
 ___
 
@@ -74,6 +70,8 @@ We sincerely hope that this learning journey proves valuable and contributes pos
 ___
 
 # License
-- Text is licensed under the [GNU Free Documentation License 1.3](https://www.gnu.org/licenses/fdl-1.3.en.html). To view a copy of this license, visit [https://www.gnu.org/licenses/fdl-1.3.en.html](https://www.gnu.org/licenses/fdl-1.3.en.html).
+This textbook contains code samples and documentation. Due to license incompatibilities, this project is dual-licensed under the GPLv3 and the GFDL 1.3. Ensure compliance with both licenses when using, modifying, or distributing this material.
+
+- Documentation is licensed under the [GNU Free Documentation License 1.3](https://www.gnu.org/licenses/fdl-1.3.en.html). To view a copy of this license, visit [https://www.gnu.org/licenses/fdl-1.3.en.html](https://www.gnu.org/licenses/fdl-1.3.en.html).
 
 - Code is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html). To view a copy of this license, visit [https://www.gnu.org/licenses/gpl-3.0.en.html](https://www.gnu.org/licenses/gpl-3.0.en.html).

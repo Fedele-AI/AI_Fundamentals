@@ -20,6 +20,18 @@ Whether you're a student diving into AI for the first time or someone who's been
 
 Throughout this series, you'll explore foundational models, mathematical formulas, and real world examples; from simple perceptrons to cutting-edge deep learning architectures like transformers. Each module is paired with hands-on coding exercises to help you reinforce what you learn and build your own intelligent systems. By the end of this course, you'll have a solid understanding of AI fundamentals and the tools to create and experiment with intelligent algorithms and applications.
 
+---
+
+<div align="center">
+
+<img src="./aibasics/Figures/GPLV3_Logo.svg" alt="GPLv3_Logo" style="width:20%;">
+<img src="./aibasics/Figures/GFDL_Logo.svg" alt="GFDL_Logo" style="width:20%;">
+<img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" style="width:20%;">
+
+</div>
+
+---
+
 ## Table of Contents
 This series covers the following topics, and you are encouraged to read the modules in order to build a strong foundation in the basics of AI.
 
@@ -49,25 +61,24 @@ This series represents our commitment to making high-quality AI education access
 We sincerely hope this learning journey proves valuable as you explore the fascinating world of artificial intelligence, whether your goals involve academic advancement, professional development, or personal enrichment! Your feedback is welcomed as we continuously strive to improve and expand these educational resources.
 
 ---
-<div align="center">
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-<img src="./aibasics/Figures/GFDL_Logo.svg" alt="GFDL_Logo" style="width:20%;">
-
-</div>
 
 ## License
-This work is licensed under the **GNU Free Documentation License 1.3 (GFDL 1.3)**. You are free to copy, modify, and distribute this document under the terms of the GFDL 1.3, provided that you retain this notice and provide attribution.
+This work is licensed under two different licenses to distinguish between the documentation and the code.
 
-### TL;DR:
-- 🤑 **This is free of charge**, if you paid money for this textbook - request a refund immediately.
-- ✅ **You can** copy, modify, and distribute this content.
-- 🚫 **You cannot** impose additional restrictions beyond the GFDL 1.3.
-- 📜 **You must** give proper attribution and include the license notice in all copies.
-- 📖 **For full details**, see [our license file](LICENSE.txt).
+### Documentation License
+The documentation is licensed under the **GNU Free Documentation License 1.3 (GFDL 1.3)**. You are free to copy, modify, and distribute this document under the terms of the GFDL 1.3, provided that you retain this notice and provide attribution.
+
+### Code License
+The code provided in this repository is licensed under the **GNU General Public License v3.0 (GPLv3)**. This means you are free to use, modify, and distribute the code, provided that any derivative works also comply with the GPLv3 terms.
+
+#### TL;DR:
+- 🤑 **This is free of charge**, if you paid money for this textbook or code - request a refund immediately.
+- ✅ **You can** copy, modify, and distribute the content and code.
+- 🚫 **You cannot** impose additional restrictions beyond the GFDL 1.3 for documentation and GPLv3 for code.
+- 📜 **You must** give proper attribution, include the license notice in all copies, and release any derivative works of the code under the same license.
+- 👨‍⚖️ **For full details**, see [our license file](LICENSE.txt).
 
 ---
 
 > [!IMPORTANT]
 > If you're wanting to contribute to this repository, [you'll need to read and accept our contributor code of conduct](./CODE_OF_CONDUCT.md). Fedele_AI is committed to creating a welcoming and collaborative environment for everyone, and your participation is a crucial part of that! For issues, ideas, or questions - please see the `Discussions` tab above. Thanks, and [Go Jackets](https://gatech.edu)!
-

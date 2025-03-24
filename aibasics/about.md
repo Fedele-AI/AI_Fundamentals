@@ -73,8 +73,14 @@ Our commitment to ethical AI research involves:
 - **Ensuring Transparency:** Making AI decision-making processes understandable and accessible.
 - **Considering Societal Impacts:** Evaluating the broader implications of AI technologies on society and striving to mitigate any negative effects.
 
-We sincerely hope that this learning journey proves valuable and contributes positively to the field of artificial intelligence. Thank you for being a part of this project. Let's work together to advance our understanding and application of AI in a responsible and impactful way.
+___
 
+# Thank You!
+We sincerely hope that this learning journey proves valuable and contributes positively to the field of artificial intelligence. Thank you for being a part of this project! Let's work together to advance our understanding and application of AI in a responsible and impactful way. 
+
+For issues, ideas, or questions - [please see the Discussions tab on our GitHub page.](https://github.com/Fedele-AI/AI_Fundamentals/discussions) 
+
+This textbook was made with love in Atlanta, Georgia. [Go Jackets! 🐝](https://gatech.edu) 
 ___
 
 # License

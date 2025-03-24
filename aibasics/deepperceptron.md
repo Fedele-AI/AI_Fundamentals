@@ -64,3 +64,6 @@ To explain it simply, imagine a deep perceptron like a **team of experts** passi
 ### Video 2. Python Implementation Of A Deep Perceptron for XOR Gates
 [![Watch the video](https://img.youtube.com/vi/oeVPtmNA8Z4/0.jpg)](https://youtu.be/oeVPtmNA8Z4)
 
+---
+
+[⬅️ Previous](linearperceptrone.md) | [Next ➡️](hopfieldnetwork.md)

@@ -71,6 +71,7 @@ We sincerely hope this learning journey proves valuable as you explore the fasci
 ---
 
 ## License
+This textbook contains code samples and documentation. Due to license incompatibilities, this project is dual-licensed under the GPLv3 and the GFDL 1.3. Please ensure compliance with both licenses when using, modifying, or distributing this material.
 
 ### Documentation License 📃
 The documentation is licensed under the **GNU Free Documentation License 1.3 (GFDL 1.3)**. You are free to copy, modify, and distribute this document under the terms of the GFDL 1.3, provided that you retain this notice and provide attribution.

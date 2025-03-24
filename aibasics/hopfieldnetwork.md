@@ -114,3 +114,7 @@ The Hopfield network provides a simple yet powerful model of associative memory.
 
 ## References
 - [Hopfield1982] J. J. Hopfield, "Neural networks and physical systems with emergent collective computational abilities," *Proceedings of the National Academy of Sciences*, vol. 79, no. 8, pp. 2554-2558, 1982.
+
+---
+
+[⬅️ Previous](deepperceptron.md) | [Next ➡️](boltzmann.md)

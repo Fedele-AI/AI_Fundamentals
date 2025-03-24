@@ -117,3 +117,7 @@ This algorithm mimics real thermal fluctuations, allowing the system to evolve t
 The one-dimensional (1D) Ising model does not exhibit a phase transition at finite temperature because thermal fluctuations always destroy long-range order. The minimal energy configurations in 1D consist of all spins being either up or down.
 
 In contrast, the two-dimensional (2D) Ising model exhibits a phase transition at a critical temperature $T_c$. Below $T_c$, spontaneous magnetization occurs, leading to the formation of coherent spin domains. Above $T_c$, thermal energy disrupts this order, leading to a disordered phase.
+
+---
+
+[⬅️ Previous](about.md) | [Next ➡️](linearperceptron.md)

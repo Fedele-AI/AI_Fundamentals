@@ -37,7 +37,7 @@ This series covers the following topics, and you are encouraged to read the modu
 
 | **Module**                          | **Homework**                | **Code**                  |
 |-------------------------------------|-----------------------------|---------------------------|
-| [0. Ethics, About, & Preface](aibasics/about.md) |   |  |
+| [0. Preface, About, & Ethics](aibasics/about.md) |   |  |
 | [1. Ising Model](aibasics/isingmodel.md)  | [ HW1 ](aibasics/Homework/ISING_homework.md)   | [Ising_model](aibasics/Python_Codes/Ising_model.ipynb)  --    [Ising_model_with_intermediate_plots](aibasics/Python_Codes/Ising_model_with_intermediate_plots.ipynb)               |
 | [2. Linear Perceptron](aibasics/linearperceptron.md) | [HW2](aibasics/Homework/LP_homework.md)  | [Linear & Deep Perceptron](aibasics/Python_Codes/Linear_Perceptron.ipynb)             |
 | [3. Deep Perceptron](aibasics/deepperceptron.md) | [HW2](aibasics/Homework/LP_homework.md)      | [Linear & Deep Perceptron](aibasics/Python_Codes/Linear_Perceptron.ipynb)             |

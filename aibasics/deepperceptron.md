@@ -66,4 +66,4 @@ To explain it simply, imagine a deep perceptron like a **team of experts** passi
 
 ---
 
-[⬅️ Previous](linearperceptrone.md) | [Next ➡️](hopfieldnetwork.md)
+[⬅️ Previous](linearperceptron.md) | [Next ➡️](hopfieldnetwork.md)

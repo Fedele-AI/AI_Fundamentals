@@ -120,4 +120,8 @@ In contrast, the two-dimensional (2D) Ising model exhibits a phase transition at
 
 ---
 
+<div align="center">
+
 [⬅️ Previous](about.md) | [Next ➡️](linearperceptron.md)
+
+</div>

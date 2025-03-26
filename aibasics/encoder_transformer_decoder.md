@@ -127,4 +127,8 @@ The CNN-based bidirectional encoder and decoder, paired with a transformer, use 
 
 ---
 
+<div align="center">
+
 [⬅️ Previous](transformer.md) | [Next ➡️](cuda.md)
+
+</div>

@@ -102,4 +102,8 @@ One key limitation of the perceptron is that it can only model linearly separabl
 
 ---
 
+<div align="center">
+
 [⬅️ Previous](isingmodel.md) | [Next ➡️](deepperceptron.md)
+
+</div>

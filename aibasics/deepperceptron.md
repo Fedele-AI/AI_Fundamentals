@@ -66,4 +66,9 @@ To explain it simply, imagine a deep perceptron like a **team of experts** passi
 
 ---
 
+
+<div align="center">
+
 [⬅️ Previous](linearperceptron.md) | [Next ➡️](hopfieldnetwork.md)
+
+</div>

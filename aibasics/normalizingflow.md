@@ -66,4 +66,8 @@ It's like having a magic recipe to turn simple shapes into detailed objects and 
 
 ---
 
+<div align="center">
+
 [⬅️ Previous](boltzmann.md) | [Next ➡️](autoencoders.md)
+
+</div>

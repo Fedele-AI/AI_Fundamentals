@@ -499,4 +499,8 @@ This approach lets the model scale up in size without becoming much slower. For 
 
 ---
 
+<div align="center">
+
 [⬅️ Previous](autoencoders.md) | [Next ➡️](encoder_transformer_decoder.md)
+
+</div>

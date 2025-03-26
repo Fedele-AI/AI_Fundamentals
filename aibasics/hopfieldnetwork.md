@@ -117,4 +117,8 @@ The Hopfield network provides a simple yet powerful model of associative memory.
 
 ---
 
+<div align="center">
+
 [⬅️ Previous](deepperceptron.md) | [Next ➡️](boltzmann.md)
+
+</div>

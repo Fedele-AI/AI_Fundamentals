@@ -53,8 +53,8 @@ This series covers the following topics, and you are encouraged to read the modu
 | [5. Boltzmann Machine](aibasics/boltzmann.md) | [HW4](aibasics/Homework/RBM_homework.md)  | [Gaussian_Bernoulli_RBM](aibasics/Python_Codes/Gaussian_Bernoulli_RBM_CEE4803_Spring2025.ipynb) -- [VanGogh_RBM](aibasics/Python_Codes/VanGogh_RBM_CEE4803_Spring2025.ipynb) -- [Convert_images_in_npy_array](aibasics/Python_Codes/Convert_images_in_npy_array_CEE4803_Spring2025.ipynb)    |
 | [6. Normalizing Flow](aibasics/normalizingflow.md) | [ ](aibasics/homework/)    | [NF](aibasics/Python_Codes/Normalizing_Flow_Matt_code.ipynb)            |
 | [7. CNN Autoencoders](aibasics/autoencoders.md) | [ ](aibasics/homework/) | [Art_convolution_autoencoder](aibasics/Python_Codes/Art_convolution_autoencoder_CEE4803_Spring2025.ipynb)  |
-| [8. Large Language Models and Transformers](aibasics/transformer.md)| [ ](aibasics/homework/)   | [LLM_Transformer](aibasics/Python_Codes/LLM_Transformer_CEE4803_Spring2025.ipynb)   |
-| [9. Bidirectional CNN Encoder-Transformer-CNN Decoder for Images](aibasics/encoder_transformer_decoder.md) | [ ](aibasics/homework/)  | [CNN-Transformer_ART](aibasics/Python_Codes/CNN-Transformer_ART-CEE4803_Spring2025.ipynb)   |
+| [8. Transformers (LLMs)](aibasics/transformer.md)| [ ](aibasics/homework/)   | [LLM_Transformer](aibasics/Python_Codes/LLM_Transformer_CEE4803_Spring2025.ipynb)   |
+| [9. Bidirectional CNN Encoder - CNN Decoder for Images](aibasics/encoder_transformer_decoder.md) | [ ](aibasics/homework/)  | [CNN-Transformer_ART](aibasics/Python_Codes/CNN-Transformer_ART-CEE4803_Spring2025.ipynb)   |
 | [10. CUDA](aibasics/cuda.md)  |  Optional Unit  | [CUDA Examples in Python](aibasics/Python_Codes/CUDA_examples.ipynb)                            |
 
 ---

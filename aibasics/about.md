@@ -23,7 +23,7 @@ This repository is organized into several sections:
 
 ## Getting Started
 To get started with the AI Fundamentals research project, we recommend the following steps:
-1. **Clone the Repository:** Download the repository to your local machine using `git clone` or by downloading as a `.zip`.
+1. **Clone the Repository:** Download the repository to your local machine using `git clone` or by downloading as a `zip` archive from the web interface.
 2. **Explore the Tutorials:** Begin with the introductory tutorials to familiarize yourself with the basics of AI and machine learning.
 3. **Engage with the Community:** Join the discussion forum to connect with other researchers and participate in collaborative projects!
 

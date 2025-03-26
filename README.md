@@ -47,8 +47,8 @@ This series covers the following topics, and you are encouraged to read the modu
 |-------------------------------------|-----------------------------|---------------------------|
 | [0. Preface, About, & Ethics](aibasics/about.md) |   |  |
 | [1. Ising Model](aibasics/isingmodel.md)  | [ HW1 ](aibasics/Homework/ISING_homework.md)   | [Ising_model](aibasics/Python_Codes/Ising_model.ipynb)  --    [Ising_model_with_intermediate_plots](aibasics/Python_Codes/Ising_model_with_intermediate_plots.ipynb)               |
-| [2. Linear Perceptron](aibasics/linearperceptron.md) | [HW2](aibasics/Homework/LP_homework.md)  | [Linear & Deep Perceptron](aibasics/Python_Codes/Linear_Perceptron.ipynb)             |
-| [3. Deep Perceptron](aibasics/deepperceptron.md) | [HW3](aibasics/Homework/DP_homework.md)      | [Linear & Deep Perceptron](aibasics/Python_Codes/Linear_Perceptron.ipynb)             |
+| [2. Linear Perceptron](aibasics/linearperceptron.md) | [HW2](aibasics/Homework/LP_homework.md)  | [Linear Perceptron](aibasics/Python_Codes/Linear_Perceptron.ipynb)             |
+| [3. Deep Perceptron](aibasics/deepperceptron.md) | [HW3](aibasics/Homework/DP_homework.md)      | [Deep Perceptron](aibasics/Python_Codes/Linear_Perceptron.ipynb)             |
 | [4. Hopfield Network](aibasics/hopfieldnetwork.md) | [HW4](aibasics/Homework/HOPFIELD_homework.md) | [Hopfield Code](aibasics/Python_Codes/HOPFIELD_NETWORK_TRAINING.ipynb)    |
 | [5. Boltzmann Machine](aibasics/boltzmann.md) | [HW5](aibasics/Homework/RBM_homework.md)  | [Gaussian_Bernoulli_RBM](aibasics/Python_Codes/Gaussian_Bernoulli_RBM_CEE4803_Spring2025.ipynb) -- [VanGogh_RBM](aibasics/Python_Codes/VanGogh_RBM_CEE4803_Spring2025.ipynb) -- [Convert_images_in_npy_array](aibasics/Python_Codes/Convert_images_in_npy_array_CEE4803_Spring2025.ipynb)    |
 | [6. Normalizing Flow](aibasics/normalizingflow.md) | [ ](aibasics/homework/)    | [NF](aibasics/Python_Codes/Normalizing_Flow_Matt_code.ipynb)            |

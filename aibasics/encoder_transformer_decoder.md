@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# Bidirectional CNN Encoder-Transformer-CNN Decoder for Art Image Sequence Prediction
+# Bidirectional CNN Encoder - CNN Decoder for Art Image Sequence Prediction
 
 <img src="./Figures/DNN2.png" alt="Autoencoder" width="40%">
 

@@ -42,6 +42,11 @@ Dr. Fedele has published numerous scholarly journal papers and papers in peer-re
 ## Kenneth Alexander Jenkins
 [Kenneth (Alex) Jenkins](https://alexj.io) is a Computer Engineering student at the [Georgia Institute of Technology](https://www.gatech.edu) specializing in cybersecurity and systems architecture. With a strong academic background and hands-on technical experience, Alex has developed expertise in areas such as programming, artificial intelligence, and digital forensics. As a teaching assistant for a course on Art & Generative AI, Alex collaborates with faculty to develop instructional materials and lead study sessions, helping students explore the intersection of AI, creativity, and technology. His research focuses on integrating advanced AI models with brain-computer interfaces (BCI) to produce real-time, interactive artistic experiences, combining technical innovation with creative expression. 
 
+## Special Thanks
+We would like to extend a special thanks to the following persons: [Dr. Matthew Golden](https://www.linkedin.com/in/matthew-golden-03ba99117), for his help with writing the Python code for the normalizing flow algorithm.
+
+We would also like to thank the Georgia Institute of Technology for providing the resources and support necessary to carry out this research project. Special thanks to the [College of Engineering's](https://coe.gatech.edu) [AI Makerspace](https://coe.gatech.edu/academics/ai-for-engineering/ai-makerspace) (and the [PACE](https://pace.gatech.edu/) team) for fostering an innovative environment and providing access to cutting-edge tools and facilities. Additionally, we are deeply grateful to [Nvidia](https://nvidia.com) for their generous contributions of GPUs and compute resources, which have been instrumental in enabling the development and execution of this project. [Go Jackets!](https://gatech.edu)
+
 ___
 
 # Ethics

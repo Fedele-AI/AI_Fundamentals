@@ -47,7 +47,7 @@ Dr. Fedele has published numerous scholarly journal papers and papers in peer-re
 ## Special Thanks
 We would like to extend a special thanks to the following persons: [Dr. Matthew Golden](https://www.linkedin.com/in/matthew-golden-03ba99117), for his help with writing the Python code for the normalizing flow algorithm.
 
-We would also like to thank the Georgia Institute of Technology for providing the resources and support necessary to carry out this research project. Special thanks to the [College of Engineering's](https://coe.gatech.edu) [AI Makerspace](https://coe.gatech.edu/academics/ai-for-engineering/ai-makerspace) (and the [PACE](https://pace.gatech.edu/) team) for fostering an innovative environment and providing access to cutting-edge tools and facilities. Additionally, we are deeply grateful to [Nvidia](https://nvidia.com) for their generous contributions of GPUs and compute resources, which have been instrumental in enabling the development and execution of this project. [Go Jackets!](https://gatech.edu)
+We would also like to thank the Georgia Institute of Technology for providing the resources and support necessary to carry out this research project. Special thanks to the [College of Engineering's](https://coe.gatech.edu) [AI Makerspace](https://coe.gatech.edu/academics/ai-for-engineering/ai-makerspace) (and the [PACE](https://pace.gatech.edu/) team) for fostering an innovative environment and providing access to cutting-edge tools and facilities. Lastly, we are grateful to [Nvidia](https://nvidia.com) for their generous dontations of hundreds of GPUs and compute resources to the Institute, which have been instrumental in enabling the development and execution of this project. [Go Jackets!](https://gatech.edu)
 
 ___
 

@@ -1,6 +1,8 @@
+<div align="center">
+  
 # About
 
-----
+</div>
 
 # Preface
 Welcome to the AI Fundamentals research project! This repository contains various resources, code, and documentation to support our journey in understanding and developing artificial intelligence technologies. We hope that the materials provided here will be valuable for your learning and research. Whether you are a student, researcher, or practitioner in the field of AI, we invite you to explore, contribute, and collaborate with us on this exciting endeavor.

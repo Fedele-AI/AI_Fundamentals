@@ -97,6 +97,6 @@ This textbook contains code samples and documentation. Due to license incompatib
 
 <div align="center">
 
-[Next ➡️](isingmodel.md)
+[🏠 Home](/README.md) |[Next ➡️](isingmodel.md)
 
 </div>

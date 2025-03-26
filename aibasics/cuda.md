@@ -49,6 +49,6 @@ In the world of Python programming, CUDA helps us use the "many hands" of the GP
 
 <div align="center">
 
-[⬅️ Previous](encoder_transformer_decoder.md)
+[⬅️ Previous](encoder_transformer_decoder.md) | [🏠 Home](/README.md)
 
 </div>

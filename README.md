@@ -10,29 +10,31 @@
 
 </div>
 
-<div align="center">
+<div align="center" style="display: flex; justify-content: center; gap: 20px;">
   <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">
-    ![GPLv3 Logo](./aibasics/Figures/GPLV3_Logo.svg)
+    <img src="./aibasics/Figures/GPLV3_Logo.svg" alt="GPLv3 Logo" style="width:20%; vertical-align: middle;">
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
+
   <a href="https://www.gnu.org/licenses/fdl-1.3.html" target="_blank">
-    ![GFDL Logo](./aibasics/Figures/GFDL_Logo.svg)
+    <img src="./aibasics/Figures/GFDL_Logo.svg" alt="GFDL Logo" style="width:20%; vertical-align: middle;">
   </a>
 </div>
 
-<div align="center">
+
+<div align="center" style="display: flex; justify-content: center; gap: 20px;">
   <a href="https://www.python.org" target="_blank">
-    ![Python Logo](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+    <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python Logo" style="width:20%; vertical-align: middle;">
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://pytorch.org" target="_blank">
-    ![Pytorch Logo](https://img.shields.io/badge/PyTorch-%23EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white)
-  </a>
-</div>
 
-<div align="center">
+  <a href="https://pytorch.org" target="_blank">
+    <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white" alt="Pytorch Logo" style="width:20%; vertical-align: middle;">
+  </a>
   
-![](https://view-counter.tobyhagan.com/?user={Fedele-AI}/{AI_Fundamentals})
+  ![](https://view-counter.tobyhagan.com/?user={Fedele-AI}/{AI_Fundamentals})
+  
+</div>
+  
+
 
 </div>
 

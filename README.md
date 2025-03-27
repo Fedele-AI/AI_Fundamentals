@@ -10,17 +10,7 @@
 
 </div>
 
-> [!CAUTION]
-> This project is an active work in progress. Please check back later for our first release TBA!
 
-## Introduction
-Artificial Intelligence (AI) is an exciting and rapidly evolving field of computer science that focuses on building systems capable of intelligent behavior. From recognizing speech and images to translating languages and making complex decisions, AI systems can learn from data, identify patterns, and perform tasks that typically require human intelligence.
-
-Whether you're a student diving into AI for the first time or someone who's been around since the early days of computing, this course is designed to guide you through the core concepts and practical techniques in modern AI. We aim to make these topics accessible and engaging!
-
-Throughout this series, you'll explore foundational models, mathematical formulas, and real world examples; from simple perceptrons to cutting-edge deep learning architectures like transformers. Each module is paired with hands-on coding exercises to help you reinforce what you learn and build your own intelligent systems. By the end of this course, you'll have a solid understanding of AI fundamentals and the tools to create and experiment with intelligent algorithms and applications.
-
----
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px;">
   <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">
@@ -48,6 +38,18 @@ Throughout this series, you'll explore foundational models, mathematical formula
 ![](https://view-counter.tobyhagan.com/?user={Fedele-AI}/{AI_Fundamentals})
 
 </div>
+
+
+
+> [!CAUTION]
+> This project is an active work in progress. Please check back later for our first release TBA!
+
+## Introduction
+Artificial Intelligence (AI) is an exciting and rapidly evolving field of computer science that focuses on building systems capable of intelligent behavior. From recognizing speech and images to translating languages and making complex decisions, AI systems can learn from data, identify patterns, and perform tasks that typically require human intelligence.
+
+Whether you're a student diving into AI for the first time or someone who's been around since the early days of computing, this course is designed to guide you through the core concepts and practical techniques in modern AI. We aim to make these topics accessible and engaging!
+
+Throughout this series, you'll explore foundational models, mathematical formulas, and real world examples; from simple perceptrons to cutting-edge deep learning architectures like transformers. Each module is paired with hands-on coding exercises to help you reinforce what you learn and build your own intelligent systems. By the end of this course, you'll have a solid understanding of AI fundamentals and the tools to create and experiment with intelligent algorithms and applications.
 
 ---
 

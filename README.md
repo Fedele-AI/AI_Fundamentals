@@ -10,8 +10,6 @@
 
 </div>
 
-
-
 <div align="center" style="display: flex; justify-content: center; gap: 20px;">
   <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">
     <img src="./aibasics/Figures/GPLV3_Logo.svg" alt="GPLv3 Logo" style="width:20%; vertical-align: middle;">
@@ -39,10 +37,10 @@
 
 </div>
 
-
-
 > [!CAUTION]
 > This project is an active work in progress. Please check back later for our first release TBA!
+
+___
 
 ## Introduction
 Artificial Intelligence (AI) is an exciting and rapidly evolving field of computer science that focuses on building systems capable of intelligent behavior. From recognizing speech and images to translating languages and making complex decisions, AI systems can learn from data, identify patterns, and perform tasks that typically require human intelligence.

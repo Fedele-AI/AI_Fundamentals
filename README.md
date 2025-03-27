@@ -28,7 +28,8 @@
   <a href="https://pytorch.org" target="_blank">
     <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white" alt="Pytorch Logo">
   </a>
-</div>
+
+  ![](https://view-counter.tobyhagan.com/?user={Fedele-AI}/{AI_Fundamentals})
 
 </div>
 

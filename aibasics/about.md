@@ -2,6 +2,8 @@
   
 # About
 
+<img src="./aibasics/Figures/AI_Fedele.png" alt="AI" width="400" height="400">
+
 </div>
 
 # Preface
@@ -45,18 +47,25 @@ Dr. Fedele has published numerous scholarly journal papers and papers in peer-re
 [Kenneth (Alex) Jenkins](https://alexj.io) is a Computer Engineering student at the [Georgia Institute of Technology](https://www.gatech.edu) specializing in [cybersecurity](https://ece.gatech.edu/cybersecurity-thread) and [systems architecture](https://ece.gatech.edu/systems-architecture-thread). With a strong academic background and hands-on technical experience, Alex has developed expertise in areas such as programming, artificial intelligence, and digital forensics. As a teaching assistant for a course on Art & Generative AI, Alex collaborates with faculty to develop instructional materials and lead study sessions, helping students explore the intersection of AI, creativity, and technology. His research focuses on integrating advanced AI models with brain-computer interfaces (BCI) to produce real-time, interactive artistic experiences, combining technical innovation with creative expression. 
 
 ## Special Thanks
-We would like to extend a special thanks to the following persons: [Dr. Matthew Golden](https://www.linkedin.com/in/matthew-golden-03ba99117), for his help with writing the Python code for the normalizing flow algorithm.
+We would like to extend a special thanks to the following person(s) for their help in the making of this textbook: [Dr. Matthew Golden](https://www.linkedin.com/in/matthew-golden-03ba99117) of the Physics Department at Georgia Tech, for his help with writing the Python code for the normalizing flow algorithm.
 
-We would also like to thank the [Georgia Institute of Technology](http://gatech.edu) for providing the resources and support necessary to carry out this research project. Special thanks to the [College of Engineering's](https://coe.gatech.edu) [AI Makerspace](https://coe.gatech.edu/academics/ai-for-engineering/ai-makerspace) (and the [PACE](https://pace.gatech.edu/) team) for fostering an innovative environment and providing access to cutting-edge tools and facilities. Lastly, we are grateful to [Nvidia](https://nvidia.com) for their generous dontations of hundreds of GPUs and compute resources to the Institute, which have been instrumental in enabling the development and execution of this project.
+Special thanks to the [Georgia Institute of Technology](http://gatech.edu) [College of Engineering's](https://coe.gatech.edu) [AI Makerspace](https://coe.gatech.edu/academics/ai-for-engineering/ai-makerspace) and the [PACE](https://pace.gatech.edu/) team for providing access to cutting-edge tools and facilities that have been pivotal to this project. We are also deeply appreciative to [NVIDIA](https://nvidia.com) for their generous contributions of hundreds of GPUs and compute resources which made the makerspace possible. These collective efforts have been instrumental in enabling the development and execution of this project.
+
+Together, these contributions have created an environment where innovation thrives, and we are proud to acknowledge the collective efforts that have made this project possible!
 ___
 
 # Ethics
 We are committed to conducting our research in an ethical manner. This includes respecting privacy, ensuring transparency, and considering the societal impacts of our work. AI is a powerful tool created by humans for humans, and it is essential to understand its capabilities and limitations to use it responsibly.
 
-## Environmental Costs of AI Hardware
+## Environmental Costs of AI Technologies
+
 The development and deployment of AI technologies come with significant environmental costs, particularly related to the hardware required to support these systems. The production of AI hardware, such as GPUs and specialized AI chips, involves the extraction of rare earth minerals and other resources, which can lead to habitat destruction, pollution, and significant carbon emissions. Additionally, the energy consumption of data centers that run AI models is substantial, contributing to the overall carbon footprint of AI technologies. As AI continues to grow, it is crucial to consider sustainable practices in the design, production, and operation of AI hardware to mitigate its environmental impact.
 
-Furthermore, the disposal of outdated or obsolete AI hardware poses another environmental challenge. E-waste, if not properly managed, can lead to the release of toxic substances into the environment, affecting both ecosystems and human health. To address these issues, researchers and developers must prioritize eco-friendly materials, energy-efficient designs, and robust recycling programs. By integrating sustainability into the lifecycle of AI hardware, we can reduce the environmental costs associated with advancing AI technologies.
+The power draw of the latest GPUs is enormous — newer models, such as GPUs with [NVIDIA's Hopper architecture](https://resources.nvidia.com/en-us-tensor-core/nvidia-tensor-core-gpu-datasheet), can consume up to 700 watts of power, equivalent to the energy usage of a small microwave. [Currently, it is projected](https://www.tomshardware.com/tech-industry/nvidias-h100-gpus-will-consume-more-power-than-some-countries-each-gpu-consumes-700w-of-power-35-million-are-expected-to-be-sold-in-the-coming-year) sale of 35 million units in the coming year could result in energy consumption surpassing that of some small countries. This substantial energy demand contributes significantly to the carbon footprint of AI technologies, exacerbating climate change.
+
+The production of AI hardware, such as GPUs and specialized AI chips, also involves the extraction of rare earth minerals and other resources, leading to habitat destruction, pollution, and additional carbon emissions. Moreover, the disposal of outdated or obsolete AI hardware poses another environmental challenge. E-waste, if not properly managed, can release toxic substances into the environment, harming ecosystems and human health.
+
+To mitigate these impacts, it is crucial to adopt sustainable practices in the design, production, and operation of AI hardware. Researchers and developers should prioritize energy-efficient designs, eco-friendly materials, and robust recycling programs. Additionally, users of AI systems can contribute by planning their interactions with AI more carefully. Think like the engineers of the 70s that [used punch cards to run a computer and execute calculations](https://en.wikipedia.org/wiki/Computer_programming_in_the_punched_card_era). Users of AI should consider the environmental cost of every generated image, written story, or chatbot query. By reducing unnecessary computations, we can collectively lower the carbon emissions associated with AI technologies.
 
 ## Real-World Examples of AI Decision-Making
 Today, AI systems are increasingly making decisions that impact our daily lives. For instance, AI algorithms are currently being used in healthcare to diagnose diseases, recommend treatments, and even predict patient outcomes before any blood is drawn. In finance, AI is employed to detect fraudulent transactions, assess creditworthiness, and manage investment portfolios. Autonomous vehicles rely on AI to navigate and make real-time decisions to ensure passenger safety.
@@ -88,7 +97,7 @@ We sincerely hope that this learning journey proves valuable and contributes pos
 
 For issues, ideas, or questions - [please see the Discussions tab on our GitHub page.](https://github.com/Fedele-AI/AI_Fundamentals/discussions) 
 
-This textbook was made with love in Atlanta, Georgia. [Go Jackets! 🐝](https://gatech.edu) 
+This textbook was made with ❤️ in Atlanta, Georgia. [Go Jackets! 🐝](https://gatech.edu) 
 ___
 
 # License

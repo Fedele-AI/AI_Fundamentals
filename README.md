@@ -38,6 +38,13 @@ Throughout this series, you'll explore foundational models, mathematical formula
 
 </div>
 
+
+<div align="center">
+  
+![](https://view-counter.tobyhagan.com/?user={Fedele-AI}/{AI_Fundamentals})
+
+</div>
+
 ---
 
 ## Table of Contents
@@ -90,12 +97,3 @@ The code provided in this repository is licensed under the **GNU General Public 
 
 > [!IMPORTANT]
 > If you're wanting to contribute to this repository, [you'll need to read and accept our contributor code of conduct](./CODE_OF_CONDUCT.md). Fedele_AI is committed to creating a welcoming and collaborative environment for everyone, and your participation is a crucial part of that! For issues, ideas, or questions - please see the `Discussions` tab above. Thanks, and [Go Jackets](https://gatech.edu)!
-
-
-___
-
-<div align="center">
-  
-![](https://view-counter.tobyhagan.com/?user={Fedele-AI}/{AI_Fundamentals})
-
-</div>

@@ -2,7 +2,7 @@
   
 # About
 
-<img src="./aibasics/Figures/AI_Fedele.png" alt="AI" width="400" height="400">
+<img src="./Figures/AI_Fedele.png" alt="AI" width="400" height="400">
 
 </div>
 

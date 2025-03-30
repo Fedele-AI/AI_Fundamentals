@@ -20,7 +20,7 @@ The primary objectives of this project are:
 This repository is organized into several sections:
 1. **Tutorials and Guides:** Step-by-step instructions and tutorials to help you get started with AI concepts and tools.
 2. **Code Samples:** Example code snippets and projects that demonstrate the implementation of AI algorithms.
-3. **Datasets:** Curated FOSS datasets for training and testing AI models.
+3. **Datasets:** Curated FOSS NumPY datasets for training and testing your AI models under `./aibasics/Image_Data`.
 4. **Discussion Forum:** A platform for discussing ideas, asking questions, and sharing insights with fellow researchers.
 
 ## Getting Started

@@ -64,11 +64,16 @@ To explain it simply, imagine a deep perceptron like a **team of experts** passi
 ### Video 2. Python Implementation Of A Deep Perceptron for XOR Gates
 [![Watch the video](https://img.youtube.com/vi/oeVPtmNA8Z4/0.jpg)](https://youtu.be/oeVPtmNA8Z4)
 
+## References and Further Reading
+
+**Hinton, G. E., Osindero, S., & Teh, Y. W.** "A Fast Learning Algorithm for Deep Belief Nets." *Neural Computation*, vol. 18, no. 7, 2006, pp. 1527–1554. [DOI:10.1162/neco.2006.18.7.1527](https://doi.org/10.1162/neco.2006.18.7.1527).
+
+
 ---
 
 
 <div align="center">
 
-[⬅️ Previous](linearperceptron.md) | [Next ➡️](hopfieldnetwork.md)
+[⬅️ Previous](linearperceptron.md) | [🏠 Home](/README.md) | [Next ➡️](hopfieldnetwork.md)
 
 </div>

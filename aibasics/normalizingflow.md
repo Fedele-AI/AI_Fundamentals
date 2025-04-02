@@ -64,10 +64,14 @@ By learning these transformations, we can:
 
 It's like having a magic recipe to turn simple shapes into detailed objects and back again—helping AI better understand and create the world!
 
+## References and Further Reading
+
+**Rezende, D. J.**, and **Mohamed, S.** "Variational Inference with Normalizing Flows." *arXiv preprint arXiv:1505.05770*, 2015. [DOI:10.48550/arXiv.1505.05770](https://arxiv.org/abs/1505.05770).
+
 ---
 
 <div align="center">
 
-[⬅️ Previous](boltzmann.md) | [Next ➡️](autoencoders.md)
+[⬅️ Previous](boltzmann.md) | [🏠 Home](/README.md) | [Next ➡️](autoencoders.md)
 
 </div>

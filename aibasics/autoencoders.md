@@ -29,10 +29,15 @@ Autoencoders with latent space interpolation are often used for **generative tas
 ### Video 2. Latent Space Interpolation & Image style transfer 
 [![Watch the video](https://img.youtube.com/vi/qVYRzunQiAQ/0.jpg)](https://www.youtube.com/watch?v=qVYRzunQiAQ)
 
+## Refrences and Further Reading
+
+**Hinton, G. E., & Zemel, R. S.** "Autoencoders, Minimum Description Length, and Helmholtz Machines." *Proceedings of the 1994 IEEE Conference on Neural Networks (ICNN '94)*, 1994, pp. 555–560. [DOI:10.1109/ICNN.1994.374215](https://doi.org/10.1109/ICNN.1994.374215).
+
+
 ---
 
 <div align="center">
 
-[⬅️ Previous](normalizingflow.md) | [Next ➡️](transformer.md)
+[⬅️ Previous](normalizingflow.md) | [🏠 Home](/README.md) | [Next ➡️](transformer.md)
 
 </div>

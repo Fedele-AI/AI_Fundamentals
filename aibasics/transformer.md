@@ -497,10 +497,16 @@ Mixture of Experts is a way to make model's using transformers more efficient by
 
 This approach lets the model scale up in size without becoming much slower. For example, a transformer with MoE might have hundreds of experts, but only 2-4 are used per input. This way, the model gets the benefits of being very large (better performance) while keeping computation low (efficiency). It’s like having a team of specialists, where only the right ones step in to help for each task.
 
+## References and Further Reading
+
+**Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I.**  
+"Attention Is All You Need." *Advances in Neural Information Processing Systems (NeurIPS)*, vol. 30, 2017.  
+[DOI:10.48550/arXiv.1706.03762](https://doi.org/10.48550/arXiv.1706.03762).
+
 ---
 
 <div align="center">
 
-[⬅️ Previous](autoencoders.md) | [Next ➡️](encoder_transformer_decoder.md)
+[⬅️ Previous](autoencoders.md) | [🏠 Home](/README.md) | [Next ➡️](encoder_transformer_decoder.md)
 
 </div>

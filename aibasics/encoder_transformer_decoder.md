@@ -125,10 +125,19 @@ The CNN-based bidirectional encoder and decoder, paired with a transformer, use 
 ### Video 2. Latent Space Interpolation & Image style transfer 
 [![Watch the video](https://img.youtube.com/vi/qVYRzunQiAQ/0.jpg)](https://www.youtube.com/watch?v=qVYRzunQiAQ)
 
+## References and Further Reading
+
+**Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I.**  
+"Attention Is All You Need." *Advances in Neural Information Processing Systems (NeurIPS)*, vol. 30, 2017.  
+[DOI:10.48550/arXiv.1706.03762](https://doi.org/10.48550/arXiv.1706.03762).
+
+**Zhu, Y., & Zhang, H.** "BiO-Net: Learning Recurrent Bi-directional Connections for Encoder-Decoder Architecture." *arXiv*, 2020. [DOI:10.48550/arXiv.2007.00243](https://doi.org/10.48550/arXiv.2007.00243).
+
+
 ---
 
 <div align="center">
 
-[⬅️ Previous](transformer.md) | [Next ➡️](cuda.md)
+[⬅️ Previous](transformer.md) | [🏠 Home](/README.md) | [Next ➡️](cuda.md)
 
 </div>

@@ -118,10 +118,15 @@ The one-dimensional (1D) Ising model does not exhibit a phase transition at fini
 
 In contrast, the two-dimensional (2D) Ising model exhibits a phase transition at a critical temperature $T_c$. Below $T_c$, spontaneous magnetization occurs, leading to the formation of coherent spin domains. Above $T_c$, thermal energy disrupts this order, leading to a disordered phase.
 
+## References and Further Reading
+
+**Ising, Ernst.** "Contribution to the Theory of Ferromagnetism." *Zeitschrift für Physik*, vol. 31, no. 1, 1925, pp. 253–258. [DOI:10.1007/BF02980577](https://doi.org/10.1007/BF02980577). [English Translation](https://www.hs-augsburg.de/~harsch/anglica/Chronology/20thC/Ising/isi_fm01.html).
+
+
 ---
 
 <div align="center">
 
-[⬅️ Previous](about.md) | [Next ➡️](linearperceptron.md)
+[⬅️ Previous](about.md) | [🏠 Home](/README.md) | [Next ➡️](linearperceptron.md)
 
 </div>

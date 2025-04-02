@@ -45,6 +45,11 @@ In the world of Python programming, CUDA helps us use the "many hands" of the GP
 ### Video 3. Intro to CUDA (by NVIDIA)
 [![Watch the video](https://img.youtube.com/vi/IzU4AVcMFys/0.jpg)](https://www.youtube.com/watch?v=IzU4AVcMFys)
 
+## Refrences and Further Reading
+
+**NVIDIA Corporation.** "CUDA: Compute Unified Device Architecture." *NVIDIA Whitepaper*, 2007. [Available online](https://developer.download.nvidia.com/compute/cuda/1.0/NVIDIA_CUDA_Programming_Guide_1.0.pdf).
+
+
 ---
 
 <div align="center">

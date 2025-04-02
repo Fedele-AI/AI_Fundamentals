@@ -177,10 +177,14 @@ Gibbs sampling is simpler than Metropolis-Hastings for Boltzmann Machines becaus
 ### Video 1: Boltzmann Machine made simple
 [![Watch the video](https://img.youtube.com/vi/CgA-O-iKmY8/0.jpg)](https://youtu.be/CgA-O-iKmY8)
 
+## References and Further Reading
+
+**Hinton, G. E.**, and **Sejnowski, T. J.** "Learning and Relearning in Boltzmann Machines." *Cognitive Science*, vol. 9, no. 1, 1985, pp. 1–36. [DOI:10.1207/s15516709cog0901_1](https://doi.org/10.1207/s15516709cog0901_1).
+
 ---
 
 <div align="center">
 
-[⬅️ Previous](hopfieldnetwork.md) | [Next ➡️](normalizingflow.md)
+[⬅️ Previous](hopfieldnetwork.md) | [🏠 Home](/README.md) |  [Next ➡️](normalizingflow.md)
 
 </div>

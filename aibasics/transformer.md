@@ -503,7 +503,7 @@ This approach lets the model scale up in size without becoming much slower. For 
 "Attention Is All You Need." *Advances in Neural Information Processing Systems (NeurIPS)*, vol. 30, 2017.  
 [DOI:10.48550/arXiv.1706.03762](https://doi.org/10.48550/arXiv.1706.03762).
 
-**Shazeer, N., et al.** "Outrageously Large Neural Networks." *The Sparsely-Gated Mixture-of-Experts Layer.* [arXiv preprint arXiv:1701.06538 (2017).](https://arxiv.org/abs/1701.06538).
+**Shazeer, N., et al.** "Outrageously Large Neural Networks." *The Sparsely-Gated Mixture-of-Experts Layer.* [arXiv preprint arXiv:1701.06538 (2017).](https://arxiv.org/abs/1701.06538)
 
 ---
 

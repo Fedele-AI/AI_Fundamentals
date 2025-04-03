@@ -120,3 +120,7 @@ The code provided in this repository is licensed under the **GNU General Public 
 > For issues, ideas, or questions, check out the [Discussions](https://github.com/Fedele-AI/AI_Fundamentals/discussions) tab above.  
 
 This textbook was made with ❤️ in Atlanta, Georgia 🇺🇸 - [Go Jackets!](https://gatech.edu)
+
+___
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Fedele-AI/AI_Fundamentals&type=Date)](https://www.star-history.com/#Fedele-AI/AI_Fundamentals&Date)

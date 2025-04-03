@@ -100,7 +100,7 @@ The code provided in this repository is licensed under the **GNU General Public 
 ---
 
 > [!IMPORTANT]  
-> We want your help! Whether through code, comments, or documentation, we're committed to making these texts the best they can be.  
+> We want your help! Whether through code, comments, or documentation, we're committed to making this textbook the best it can be.  
 >   
 > If you'd like to contribute to this repository, please [read and accept our Contributor Code of Conduct](./CODE_OF_CONDUCT.md). Fedele_AI is dedicated to fostering a welcoming and collaborative environment for everyone, and your participation is essential to that mission.  
 >   

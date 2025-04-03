@@ -88,3 +88,11 @@ Why does the perceptron fail to train for the XOR gate?
 
 - Plot the data points in the input space.
 - Observe that no single line (decision boundary) can separate the positive from the negative outputs.
+
+---
+
+<div align="center">
+   
+[🏠 Home](/README.md)
+
+</div>

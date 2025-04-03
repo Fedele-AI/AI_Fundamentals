@@ -106,4 +106,4 @@ The code provided in this repository is licensed under the **GNU General Public 
 >   
 > For issues, ideas, or questions, check out the [Discussions](https://github.com/Fedele-AI/AI_Fundamentals/discussions) tab above.  
 
-This textbook was made with ❤️ in Atlanta, Georgia. Thanks, and [Go Jackets!](https://gatech.edu).
+This textbook was made with ❤️ in Atlanta, Georgia. Thanks, and [Go Jackets!](https://gatech.edu)

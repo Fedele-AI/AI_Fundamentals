@@ -49,10 +49,9 @@ ___
 
   ![](https://view-counter.tobyhagan.com/?user={Fedele-AI}/{AI_Fundamentals})
 
-</div>
+  **Version: 1.0**
 
-> [!CAUTION]
-> This project is an active work in progress. Please check back later for our first release TBA!
+</div>
 
 ___
 

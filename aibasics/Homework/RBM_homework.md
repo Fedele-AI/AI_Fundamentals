@@ -80,3 +80,11 @@ Using the provided Jupyter Notebook `VanGogh_RBM_CEE4803_Spring2025.ipynb`, trai
 - Repeat the training with a very low number of hidden variables ($N_{\text{hidden}} = 8$). How does this affect the quality of the generated images and the learned features?
 - Plot the probability density distributions for all datasets. Are they unimodal or bimodal? Broad or sharp? Explain why.
 - Repeat the training for one of the datasets with a very low number of epochs, say $50$. How does this affect the quality of the generated images and the learned features?
+
+---
+
+<div align="center">
+   
+[🏠 Home](/README.md)
+
+</div>

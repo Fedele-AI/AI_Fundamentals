@@ -99,5 +99,11 @@ The code provided in this repository is licensed under the **GNU General Public 
 
 ---
 
-> [!IMPORTANT]
-> If you're wanting to contribute to this repository, [you'll need to read and accept our contributor code of conduct](./CODE_OF_CONDUCT.md). Fedele_AI is committed to creating a welcoming and collaborative environment for everyone, and your participation is a crucial part of that! For issues, ideas, or questions - please see the `Discussions` tab above. Thanks, and [Go Jackets](https://gatech.edu)!
+> [!IMPORTANT]  
+> We want your help! Whether through code, comments, or documentation, we're committed to making these texts the best they can be.  
+>   
+> If you'd like to contribute to this repository, please [read and accept our Contributor Code of Conduct](./CODE_OF_CONDUCT.md). Fedele_AI is dedicated to fostering a welcoming and collaborative environment for everyone, and your participation is essential to that mission.  
+>   
+> For issues, ideas, or questions, check out the [Discussions](https://github.com/Fedele-AI/AI_Fundamentals/discussions) tab above.  
+
+This textbook was made with ❤️ in Atlanta, Georgia. Thanks, and [Go Jackets!](https://gatech.edu).

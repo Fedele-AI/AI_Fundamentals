@@ -4,7 +4,7 @@
 
 # AI Fundamentals
 
-### Written by: [Dr. Francesco Fedele](https://scholar.google.com/citations?user=iaHIkTAAAAAJ) & [Kenneth (Alex) Jenkins](https://alexj.io)
+## Written by: [Dr. Francesco Fedele](https://scholar.google.com/citations?user=iaHIkTAAAAAJ) & [Kenneth (Alex) Jenkins](https://alexj.io)
 
 <img src="./aibasics/Figures/AI_Fedele.png" alt="AI" width="400" height="400">
 
@@ -12,7 +12,7 @@
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px; align-items: center;">
 
-  ## Licensed Under:
+  ### Licensed Under:
 
   <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">
     <img src="./aibasics/Figures/GPLV3_Logo.svg" alt="GPLv3 Logo" style="height: 50px; display: block;">
@@ -25,7 +25,7 @@
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px; align-items: center;">
 
-  ## Runs on:
+  ### Runs on:
 
   <a href="https://www.python.org" target="_blank">
     <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python Logo">
@@ -43,7 +43,7 @@
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px; align-items: center;">
 
-  ## Built with:
+  ### Built with:
 
   <a href="https://pytorch.org" target="_blank">
     <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white" alt="Pytorch Logo">

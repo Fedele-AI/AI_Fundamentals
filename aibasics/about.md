@@ -98,7 +98,7 @@ We sincerely hope that this learning journey proves valuable and contributes pos
 For issues, ideas, or questions - [please see the Discussions tab on our GitHub page.](https://github.com/Fedele-AI/AI_Fundamentals/discussions) 
 
 > [!NOTE]
-> This textbook contains references to external papers, articles, and resources. These materials have been selected to enrich the learning experience and provide further context. Georgia Tech students can access all external resources via the Georgia Tech library using their valid SSO.
+> This textbook contains references to external papers, articles, and resources. These materials have been selected to enrich the learning experience and provide further context. Georgia Tech students can access all external resources via the Georgia Tech library using their valid SSO. Users with another valid higher education SSO may also be able to access these resources through their institution's library.
 
 This textbook was made with ❤️ in Atlanta, Georgia. [Go Jackets! 🐝](https://gatech.edu) 
 ___

@@ -180,11 +180,11 @@ In sparse MoE models:
 
 $$y = \sum_{i \in T_k(x)} G'(x)_i \cdot E_i(x)$$
 
-Where $G'(x)$ is the normalized gating weights:
+Where ${G'(x)}_i$ is the normalized gating weights:
 
-$$G'(x)_i = \frac{G(x)_i}{\sum_{j \in T_k(x)} G(x)_j}$$
+$${G'(x)}_i = \frac{G(x)_i}{\text{sum}(G(x)_j \mid j \in T_k(x))}$$
 
-This "top-$k$ gating" mechanism ensures that:
+This "top-k gating" mechanism ensures that:
 1. Only $k$ experts are activated for each token ($k \ll n$)
 2. Total computation remains manageable even as $n$ grows
 3. Each token is processed by the most relevant experts

@@ -147,6 +147,50 @@ where $W_O$ is $d \times d$ (since $h \cdot d_h = d$), and the final output is $
 
 Each head can specialize in different relationships (e.g., syntax vs. semantics).
 
+### Mixture of Experts (MoE)
+Mixture of Experts is a way to make model's using transformers more efficient by only using parts of it at a time. Instead of every part of the model working on every input, the input is routed to a few specialized "experts" (smaller neural networks) that are best suited for it. A gating mechanism decides which experts to activate, so the model can handle more complex tasks without always using all its parameters, saving computation.
+This approach lets the model scale up in size without becoming much slower. For example, a transformer with MoE might have hundreds of experts, but only 2-4 are used per input. This way, the model gets the benefits of being very large (better performance) while keeping computation low (efficiency). It's like having a team of specialists, where only the right ones step in to help for each task.
+
+In a standard Transformer feed-forward network (FFN), each layer computes:
+
+$$y = \text{FFN}(x) = \text{GELU}(xW_1)W_2$$
+
+Where $x \in \mathbb{R}^{d_{\text{model}}}$ is the input, $W_1 \in \mathbb{R}^{d_{\text{model}} \times d_{\text{ff}}}$ and $W_2 \in \mathbb{R}^{d_{\text{ff}} \times d_{\text{model}}}$ are learned parameters, and GELU is the activation function.
+
+In a Mixture of Experts (MoE) layer, this is replaced with:
+
+$$y = \sum_{i=1}^{n} G(x)_i \cdot E_i(x)$$
+
+Where:
+- $n$ is the number of experts
+- $E_i$ is the $i$-th expert, typically a feed-forward network
+- $G(x) \in \mathbb{R}^n$ is the output of the gating network that determines expert weighting
+- $G(x)_i$ is the weight assigned to expert $i$
+
+The gating network $G(x)$ is typically defined as:
+
+$$G(x) = \text{Softmax}(x \cdot W_g)$$
+
+Where $W_g \in \mathbb{R}^{d_{\text{model}} \times n}$ are learned parameters.
+
+In sparse MoE models:
+- Only the top-$k$ experts with the highest gating values are used
+- If $T_k(x)$ represents the indices of the top-$k$ values in $G(x)$
+- The computation becomes:
+
+$$y = \sum_{i \in T_k(x)} G'(x)_i \cdot E_i(x)$$
+
+Where $G'(x)$ is the normalized gating weights:
+
+$$G'(x)_i = \frac{G(x)_i}{\sum_{j \in T_k(x)} G(x)_j}$$
+
+This "top-$k$ gating" mechanism ensures that:
+1. Only $k$ experts are activated for each token ($k \ll n$)
+2. Total computation remains manageable even as $n$ grows
+3. Each token is processed by the most relevant experts
+
+The computational efficiency comes from the fact that while the model's capacity grows linearly with the number of experts $n$, the computation per token only scales with $k$.
+
 ### How Attention Learns Grammar and Semantics
 The mechanics of attention directly enable the transformer to pick up grammatical and semantic patterns during training.
 
@@ -491,11 +535,6 @@ $W_o$’s size ($V \times d$) is independent of the prompt length $n$. It always
 ### Handling Variable Lengths
 Transformers are designed to handle variable sequence lengths up to their maximum context ($n_{\text{max}} = 2048$ in this example). For $n = 40 < 2048$, the model processes only the 40 tokens, and unused positions (up to 2048) are either padded (ignored) or not allocated, depending on the implementation. The fixed $W_o$ ensures consistent output mapping regardless of $n$, making the model flexible for any prompt length within its capacity.
 
-
-## Mixture of Experts (MoE)
-Mixture of Experts is a way to make model's using transformers more efficient by only using parts of it at a time. Instead of every part of the model working on every input, the input is routed to a few specialized "experts" (smaller neural networks) that are best suited for it. A gating mechanism decides which experts to activate, so the model can handle more complex tasks without always using all its parameters, saving computation.
-
-This approach lets the model scale up in size without becoming much slower. For example, a transformer with MoE might have hundreds of experts, but only 2-4 are used per input. This way, the model gets the benefits of being very large (better performance) while keeping computation low (efficiency). It’s like having a team of specialists, where only the right ones step in to help for each task.
 
 ## References and Further Reading
 

@@ -74,11 +74,13 @@
   
 </div>
 
+___
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px; align-items: center;">
 
-</div>
+  ![](https://view-counter.tobyhagan.com/?user={Fedele-AI}/{AI_Fundamentals})
 
+</div>
 
 > [!CAUTION]
 > This project is an active work in progress. Please check back later for our first release TBA!

@@ -14,70 +14,32 @@
 
   ### Licensed Under:
 
-  <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">
-    <img src="./aibasics/Figures/GPLV3_Logo.svg" alt="GPLv3 Logo" style="height: 50px; display: block;">
-  </a>
+  <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" style="text-decoration: none;"><img src="./aibasics/Figures/GPLV3_Logo.svg" alt="GPLv3 Logo" style="height: 50px; display: block;"></a><a href="https://www.gnu.org/licenses/fdl-1.3.html" target="_blank" style="text-decoration: none;"><img src="./aibasics/Figures/GFDL_Logo.svg" alt="GFDL Logo" style="height: 50px; display: block;"></a>
 
-  <a href="https://www.gnu.org/licenses/fdl-1.3.html" target="_blank">
-    <img src="./aibasics/Figures/GFDL_Logo.svg" alt="GFDL Logo" style="height: 50px; display: block;">
-  </a>
 </div>
+
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px; align-items: center;">
 
   ### Runs on:
-
-  <a href="https://www.python.org" target="_blank">
-    <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python Logo">
-  </a>
-
-  <a href="https://nvidia.com" target="_blank">
-    <img src="https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green" alt="CUDA Logo">
-  </a>
-
-  <a href="https://colab.research.google.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Colab Logo">
-  </a>
+  
+  [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org)
+  [![CUDA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green)](https://nvidia.com)
+  [![Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
   
 </div>
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px; align-items: center;">
 
   ### Built with:
-
-  <a href="https://pytorch.org" target="_blank">
-    <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white" alt="Pytorch Logo">
-  </a>
-
-  <a href="https://www.tensorflow.org/" target="_blank">
-    <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" alt="TensorFlow Logo">
-  </a>
-    
-  <a href="https://numpy.org/" target="_blank">
-    <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPY Logo">
-  </a>
-
-  <a href="https://keras.io/" target="_blank">
-    <img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white" alt="Keras Logo">
-  </a>
-
-  <a href="https://scikit-learn.org" target="_blank">
-    <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn Logo">
-  </a>
-
-  <a href="https://matplotlib.org/" target="_blank">
-    <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" alt="matplotlib Logo">
-  </a>
-
-  <a href="https://scipy.org/" target="_blank">
-    <img src="https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white" alt="SciPy Logo">
-  </a>
-
-  <a href="https://opencv.org/" target="_blank">
-    <img src="https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV Logo">
-  </a>
-
-
+  [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white)](https://pytorch.org)
+  [![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)](https://www.tensorflow.org/)
+  [![NumPY](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+  [![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)](https://keras.io/)
+  [![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+  [![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)](https://matplotlib.org/)
+  [![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=white)](https://scipy.org/)
+  [![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
   
 </div>
 

@@ -42,3 +42,12 @@ where $\sigma$ is an activation function such as the sigmoid or ReLU function.
 **Question 7**: Train the model to learn the XOR function. Find the MLP parameters to model a XOR gate using the provided Jupyter Notebook.
 
 **Question 8**: Plot the data points in both the input and latent spaces. Explain why the MLP successfully learns the XOR function.
+
+
+---
+
+<div align="center">
+   
+[🏠 Home](/README.md)
+
+</div>

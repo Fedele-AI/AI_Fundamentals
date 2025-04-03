@@ -1,4 +1,4 @@
-# Neurons and ISING model -- Part 2: The Ising Model
+# Neurons and ISING model -- The Ising Model
 
 ## Introduction
 
@@ -75,14 +75,10 @@ Using the provided Python code (in the Jupyter Notebook `Ising_model.ipynb`) tha
 - Compare your simulation results and observations with those obtained from the online JAVA simulator provided above.
 - Discuss any similarities or differences in the behavior of the system, particularly regarding the phase transition and magnetization.
 
-## Deliverables
+---
 
-- A written explanation (or report) addressing Tasks 1, 2, and 3.
-- Any figures, plots, or screenshots from your simulation that illustrate the spin configurations and the phase transition behavior.
-- A discussion comparing your findings with those observed in the online JAVA simulator.
+<div align="center">
+   
+[🏠 Home](/README.md)
 
-## Submission Instructions
-
-- Save your completed assignment as a Word document (`.doc` or `.docx`) or a PDF.
-- Include all required explanations, comparisons, and illustrations as specified above.
-- Submit the file according to your instructor's guidelines.
+</div>

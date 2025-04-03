@@ -58,3 +58,11 @@ Summarize your findings from the experiments. Discuss the limitations of the Hop
 ## References
 
 - Hopfield, J.J. (1982). Neural networks and physical systems with emergent collective computational abilities. *Proceedings of the National Academy of Sciences*, 79(8), 2554-2558.
+
+---
+
+<div align="center">
+   
+[🏠 Home](/README.md)
+
+</div>

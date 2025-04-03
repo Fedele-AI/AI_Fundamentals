@@ -34,6 +34,10 @@
   <a href="https://nvidia.com" target="_blank">
     <img src="https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green" alt="CUDA Logo">
   </a>
+
+  <a href="https://colab.research.google.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Colab Logo">
+  </a>
   
 </div>
 

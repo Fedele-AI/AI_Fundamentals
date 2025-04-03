@@ -29,6 +29,10 @@
     <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white" alt="Pytorch Logo">
   </a>
 
+  <a href="https://colab.research.google.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Colab Logo">
+  </a>
+
   ![](https://view-counter.tobyhagan.com/?user={Fedele-AI}/{AI_Fundamentals})
 
 </div>

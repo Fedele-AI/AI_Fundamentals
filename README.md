@@ -123,4 +123,4 @@ This textbook was made with ❤️ in Atlanta, Georgia 🇺🇸 - [Go Jackets!](
 
 ___
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Fedele-AI/AI_Fundamentals&type=Date)](https://www.star-history.com/#Fedele-AI/AI_Fundamentals&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Fedele-AI/AI_Fundamentals&type=Timeline)](https://www.star-history.com/#Fedele-AI/AI_Fundamentals&Timeline)

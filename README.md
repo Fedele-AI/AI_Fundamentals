@@ -64,11 +64,11 @@ ___
 ___
 
 ## Introduction
-Artificial Intelligence (AI) is an exciting and rapidly evolving field of computer science that focuses on building systems capable of intelligent behavior. From recognizing speech and images to translating languages and making complex decisions, AI systems can learn from data, identify patterns, and perform tasks that typically require human intelligence.
+The term “Artificial Intelligence” is everywhere — but it’s often misunderstood. Despite the name, these systems don’t actually possess intelligence or understanding. What’s typically called “AI” today refers to models that generate outputs based on patterns in data. They don’t comprehend meaning, context, or truth; they operate by predicting what comes next in a sequence, based on what they've seen before.
 
-Whether you're a student diving into AI for the first time or someone who's been around since the early days of computing, this course is designed to guide you through the core concepts and practical techniques in modern AI. We aim to make these topics accessible and engaging!
+This textbook is open to everyone — no background in machine learning is required. If you’re comfortable with basic Python and introductory calculus, you’ll be able to follow along and engage with every concept. Whether you're encountering AI for the first time or revisiting it with a more critical perspective, our goal is to make the inner workings of these systems clear, approachable, and honest. We focus on what these tools actually do — and just as importantly, what they can’t.
 
-Throughout this series, you'll explore foundational models, mathematical formulas, and real world examples; from simple perceptrons to cutting-edge deep learning architectures like transformers. Each module is paired with hands-on coding exercises to help you reinforce what you learn and build your own intelligent systems. By the end of this course, you'll have a solid understanding of AI fundamentals and the tools to create and experiment with intelligent algorithms and applications.
+You’ll explore core models and techniques, from basic neural networks to complex architectures like transformers, paired with hands-on coding exercises. Along the way, we emphasize the limitations, risks, and philosophical questions that come with generative models. By the end, you’ll not only have the skills to build these systems — you’ll also have the language to talk about them honestly!
 
 ---
 

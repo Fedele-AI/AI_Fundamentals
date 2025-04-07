@@ -8,6 +8,13 @@
 
 </div>
 
+## Introduction
+The Ising Model is a mathematical model used in statistical physics to describe magnetism in materials. It represents a system of spins (small magnetic moments) arranged on a lattice, where each spin can be in one of two states: +1 (up) or -1 (down). The spins interact with their neighbors, and the total energy of the system depends on how many spins are aligned versus misaligned.
+
+The system evolves according to the principles of energy minimization—it tends to settle into a state that lowers its overall energy. At high temperatures, the spins fluctuate randomly (disordered phase), but as the temperature decreases, they begin to align, forming magnetic domains. At a critical temperature (phase transition), the system shifts from a disordered to an ordered state, modeling how real magnets gain or lose magnetization.
+
+Imagine a group of friends deciding whether to wear red shirts (+1) or blue shirts (-1). Each friend prefers to match the color of their closest friends, but some are influenced by external trends (like a celebrity wearing blue). If it's a hot day (high temperature), everyone is chaotic, choosing colors randomly. But as it gets colder (low temperature), friends start coordinating, and soon, everyone might be wearing the same color.
+
 ### Relation to Neural Networks
 The Ising model has deep connections to artificial neural networks,particularly the Hopfield network and the Boltzmann Machine, both of which draw inspiration from statistical physics to model complex systems.  
 
@@ -26,13 +33,6 @@ where $v_i$ and $h_j$ are the states of visible and hidden units, respectively, 
 The probability of a configuration is given by:
 
 $$ P(\mathbf{v}, \mathbf{h}) = \frac{e^{-E(\mathbf{v}, \mathbf{h}) / T}}{Z}. $$
-
-## Introduction
-The Ising Model is a mathematical model used in statistical physics to describe magnetism in materials. It represents a system of spins (small magnetic moments) arranged on a lattice, where each spin can be in one of two states: +1 (up) or -1 (down). The spins interact with their neighbors, and the total energy of the system depends on how many spins are aligned versus misaligned.
-
-The system evolves according to the principles of energy minimization—it tends to settle into a state that lowers its overall energy. At high temperatures, the spins fluctuate randomly (disordered phase), but as the temperature decreases, they begin to align, forming magnetic domains. At a critical temperature (phase transition), the system shifts from a disordered to an ordered state, modeling how real magnets gain or lose magnetization.
-
-Imagine a group of friends deciding whether to wear red shirts (+1) or blue shirts (-1). Each friend prefers to match the color of their closest friends, but some are influenced by external trends (like a celebrity wearing blue). If it's a hot day (high temperature), everyone is chaotic, choosing colors randomly. But as it gets colder (low temperature), friends start coordinating, and soon, everyone might be wearing the same color.
 
 ## Mathematical Formulation
 

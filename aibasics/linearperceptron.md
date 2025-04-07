@@ -102,8 +102,9 @@ One key limitation of the perceptron is that it can only model linearly separabl
 
 ## References and Further Reading
 
-**Rosenblatt, F.** "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain." *Psychological Review*, vol. 65, no. 6, 1958, pp. 386–408. [DOI:10.1037/h0042519](https://doi.org/10.1037/h0042519).
+**McCulloch, W. S., & Pitts, W.** "A Logical Calculus of the Ideas Immanent in Nervous Activity." *Bulletin of Mathematical Biophysics*, vol. 5, 1943, pp. 115–133. [DOI:10.1007/BF02478259](https://doi.org/10.1007/BF02478259).
 
+**Rosenblatt, F.** "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain." *Psychological Review*, vol. 65, no. 6, 1958, pp. 386–408. [DOI:10.1037/h0042519](https://doi.org/10.1037/h0042519).
 
 ---
 

@@ -103,7 +103,7 @@ We sincerely hope this learning journey proves valuable as you explore the fasci
 ---
 
 ## License
-This textbook contains code samples and documentation. Due to license incompatibilities, this project is dual-licensed under the GPLv3 and the GFDL 1.3. Please ensure compliance with both licenses when using, modifying, or distributing this material.
+This textbook features libre code samples and documentation. [We respect your freedom](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms). To accommodate license compatibility concerns, the project is dual-licensed under the `GPLv3` and the `GFDL 1.3`. Users are encouraged to honor the principles of free software by ensuring full compliance with both licenses when using, modifying, or sharing this material.
 
 ### Documentation License
 The documentation in this repository is licensed under the **GNU Free Documentation License 1.3 (GFDL 1.3)**. This means you are free to copy, modify, and distribute this document under the terms of the GFDL 1.3, provided that you retain this notice and provide attribution.
@@ -113,7 +113,7 @@ The code provided in this repository is licensed under the **GNU General Public 
 
 #### TL;DR:
 - 🤑 **This is free of charge**, if you paid money for this textbook or code - request a refund immediately.
-- ✅ **You can** copy, modify, and distribute the content and code.
+- ✅ **You can** copy, modify, and distribute the content and code. Commercial use is allowed.
 - 🚫 **You cannot** impose additional restrictions beyond the GFDL 1.3 for documentation and GPLv3 for code.
 - 🏴‍☠️ **You hold harmless** the authors of these texts, and understand that there is no warranty.
 - 📜 **You must** give proper attribution, include the license notice in all copies, and release any derivative works of the code under the same license.
@@ -122,7 +122,7 @@ The code provided in this repository is licensed under the **GNU General Public 
 ---
 
 > [!IMPORTANT]  
-> We want your help! Whether through code, comments, or documentation, we're committed to making this textbook the best it can be.  
+> We want your help! Whether through code, comments, ideas, or documentation - we're committed to making this textbook the best it can be.
 >   
 > If you'd like to contribute to this repository, please [read and accept our Contributor Code of Conduct](./CODE_OF_CONDUCT.md). Fedele_AI is dedicated to fostering a welcoming and collaborative environment for everyone, and your participation is essential to that mission.  
 >   

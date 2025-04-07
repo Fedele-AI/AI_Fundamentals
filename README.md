@@ -45,9 +45,17 @@
 
 ___
 
+
 <div align="center" style="display: flex; justify-content: center; gap: 20px; align-items: center;">
 
+  [![stars - AI_Fundamentals](https://img.shields.io/github/stars/Fedele-AI/AI_Fundamentals?style=social)](https://github.com/Fedele-AI/AI_Fundamentals)
   ![](https://view-counter.tobyhagan.com/?user={Fedele-AI}/{AI_Fundamentals})
+  [![forks - AI_Fundamentals](https://img.shields.io/github/forks/Fedele-AI/AI_Fundamentals?style=social)](https://github.com/Fedele-AI/AI_Fundamentals)
+  
+</div>
+
+
+<div align="center" style="display: flex; justify-content: center; gap: 20px; align-items: center;">  
 
   **Version: 1.0**
 

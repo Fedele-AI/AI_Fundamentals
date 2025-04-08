@@ -1,53 +1,43 @@
 
-### RBM versus VAE: pros and cons
+
+### 🔄 RBM versus VAE: Pros and Cons
 
 You can use both Restricted Boltzmann Machines (RBMs) and Variational Autoencoders (VAEs) to generate art images — but the kind of images you’ll get, and the process you’ll follow, are quite different. Below is a breakdown to help you understand what you can expect:
 
-🧠 RBM (Restricted Boltzmann Machine)
-→ Good for: low-resolution, abstract, grainy, noisy, dreamlike images
+---
 
-    RBMs are shallow, probabilistic models.
+#### 🧠 RBM (Restricted Boltzmann Machine)
+**→ Good for:** low-resolution, abstract, grainy, noisy, dreamlike images
 
-    They struggle with large, high-resolution, or high-dimensional color images.
+- RBMs are shallow, probabilistic models.
+- They struggle with large, high-resolution, or high-dimensional color images.
+- Typically work best on **28×28 grayscale images** (like MNIST).
+- To use RBMs for art, you'd likely:
+  - Reduce your image size (e.g. grayscale **32×32**)
+  - Train on small datasets (~40–100 images)
+  - Generate abstract patterns or textures
+- **Output:** fragmented, stochastic images — more suggestive than literal
+- Great for glitch-art, pixel art, textures, or concept exploration
+- **Think of it as:** the *"unconscious dreaming"* of your dataset
 
-    Typically work best on 28×28 grayscale images (like MNIST).
+🖼️ **Example result:** fuzzy blobs, hazy shapes, visual "hallucinations" resembling textures or loose compositions
 
-    To use RBMs for art, you'd likely:
+---
 
-        Reduce your image size (e.g. grayscale 32×32)
+#### 🎨 VAE (Variational Autoencoder)
+**→ Good for:** more coherent, soft, blurry but structured images
 
-        Train on small datasets (~40–100 images)
+- VAEs learn a **latent space** — so you can interpolate and explore creativity
+- Work reasonably well on **64×64 or 128×128 images** (with a good enough architecture)
+- You can:
+  - Train a vanilla VAE (encoder-decoder) on art images
+  - Sample from latent space (e.g. $z \sim \mathcal{N}(0, 1)$) to generate new images
+  - Or interpolate between artworks
+- **Output:** soft, smooth, sometimes blurry reconstructions
+- **Feels like:** a visual fog where your dataset's artistic style *"lives"*
 
-        Generate abstract patterns or textures
+🖼️ **Example result:** impressionistic renditions of paintings, with recognizable patterns or color palettes, but not high realism
 
-    Output: fragmented, stochastic images — more suggestive than literal
-
-    Great for glitch-art, pixel art, textures, or concept exploration
-
-    Think of it as: the "unconscious dreaming" of your dataset
-
-🖼️ Example result: fuzzy blobs, hazy shapes, visual "hallucinations" resembling textures or loose compositions
-
-🎨 VAE (Variational Autoencoder)
-→ Good for: more coherent, soft, blurry but structured images
-
-    VAEs learn a latent space — so you can interpolate and explore creativity
-
-    Work reasonably well on 64×64 or 128×128 images (with a good enough architecture)
-
-    You can:
-
-        Train a vanilla VAE (encoder-decoder) on art images
-
-        Sample from latent space (e.g. z ~ N(0,1)) to generate new images
-
-        Or interpolate between artworks
-
-    Output: soft, smooth, sometimes blurry reconstructions
-
-    Feels like: a visual fog where your dataset's artistic style "lives"
-
-🖼️ Example result: impressionistic renditions of paintings, with recognizable patterns or color palettes, but not high realism
 
 ## 🔍 Summary Table: Generative Models
 
@@ -59,13 +49,13 @@ You can use both Restricted Boltzmann Machines (RBMs) and Variational Autoencode
 | GAN   | ≥ 256×256         | Sharp, photorealistic     | High visual quality, crisp images | Mode collapse, training instability |
 | Diffusion | Any size (scalable) | Very high fidelity, progressive | State-of-the-art generation, strong diversity | Slow sampling, computationally intensive |
 
+### ✨ Artistic Opportunities
 
-✨ Artistic Opportunities
+- **RBM** = chance, abstraction, entropy  
+  → Use for: **texture overlays**, **base layers**, or **glitch aesthetics**
 
-    RBM = chance, abstraction, entropy → use as texture overlays, base layers, or glitch aesthetics
-
-    VAE = latent interpolation, generative blends → use to morph artworks or explore unseen variations
-
+- **VAE** = latent interpolation, generative blends  
+  → Use for: **morphing artworks**, **style exploration**, or **creating unseen variations**
 
 
 ---

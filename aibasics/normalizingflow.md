@@ -13,8 +13,6 @@ A Normalizing Flow is a powerful machine-learning technique used to model comple
 
 At its core, a normalizing flow allows us to map **complex data** (like a picture of a cat) to a **simple space** (like a Gaussian distribution) and vice versa—enabling both **generation** and **likelihood estimation** of data points.
 
----
-
 ### **How Normalizing Flows Work**  
 
 1. **Basic Idea**:  

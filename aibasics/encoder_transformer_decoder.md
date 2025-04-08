@@ -40,7 +40,7 @@ Convolutional Neural Networks (CNNs) are specialized for processing grid-like da
 
 ## Overall Model Architecture
 
-The architecture comprises a **Bidirectional CNN Encoder**, a **Transformer Decoder**, and a **CNN Decoder**.
+The architecture comprises a **Bidirectional CNN Encoder**, a **Transformer Decoder**, and a **CNN Decoder**. The CNN-based bidirectional encoder and decoder, paired with a transformer, use bidirectional masking and relative positioning to leverage spatial and relational context, outperforming forward masking and absolute positioning for art sequence generation.
 
 ### 1. Bidirectional CNN Encoder
 
@@ -112,10 +112,6 @@ The architecture comprises a **Bidirectional CNN Encoder**, a **Transformer Deco
   - **Why Not**: Rigid indices ignore relational dynamics critical for art.
 
 - **Rationale**: Relative positioning aligns with artistic sequence coherence over absolute’s static order.
-
-## Summary
-
-The CNN-based bidirectional encoder and decoder, paired with a transformer, use bidirectional masking and relative positioning to leverage spatial and relational context, outperforming forward masking and absolute positioning for art sequence generation.
 
 ## Video Notes
 

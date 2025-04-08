@@ -179,7 +179,7 @@ Gibbs sampling is simpler than Metropolis-Hastings for Boltzmann Machines becaus
 
 ## References and Further Reading
 
-**Hinton, G. E.**, and **Sejnowski, T. J.** "Learning and Relearning in Boltzmann Machines." *Cognitive Science*, vol. 9, no. 1, 1985, pp. 1–36. [DOI:10.1207/s15516709cog0901_1](https://doi.org/10.1207/s15516709cog0901_1).
+**Ackley, D. H.**, **Hinton, G. E.**, and **Sejnowski, T. J.** "A Learning Algorithm for Boltzmann Machines." *Cognitive Science*, vol. 9, no. 1, 1985, pp. 147–169. [DOI:10.1207/s15516709cog0901_7](https://doi.org/10.1207/s15516709cog0901_7).
 
 ---
 

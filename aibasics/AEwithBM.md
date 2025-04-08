@@ -1,12 +1,10 @@
-
-
-### 🔄 RBM versus VAE: Pros and Cons
+### Combined Autoencoder with Boltzmann Machines
 
 You can use both Restricted Boltzmann Machines (RBMs) and Variational Autoencoders (VAEs) to generate art images — but the kind of images you’ll get, and the process you’ll follow, are quite different. Below is a breakdown to help you understand what you can expect:
 
 ---
 
-#### 🧠 RBM (Restricted Boltzmann Machine)
+#### RBM (Restricted Boltzmann Machine)
 **→ Good for:** low-resolution, abstract, grainy, noisy, dreamlike images
 
 - RBMs are shallow, probabilistic models.
@@ -20,11 +18,11 @@ You can use both Restricted Boltzmann Machines (RBMs) and Variational Autoencode
 - Great for glitch-art, pixel art, textures, or concept exploration
 - **Think of it as:** the *"unconscious dreaming"* of your dataset
 
-🖼️ **Example result:** fuzzy blobs, hazy shapes, visual "hallucinations" resembling textures or loose compositions
+**Example result:** fuzzy blobs, hazy shapes, visual "hallucinations" resembling textures or loose compositions
 
 ---
 
-#### 🎨 VAE (Variational Autoencoder)
+#### VAE (Variational Autoencoder)
 **→ Good for:** more coherent, soft, blurry but structured images
 
 - VAEs learn a **latent space** — so you can interpolate and explore creativity
@@ -36,7 +34,7 @@ You can use both Restricted Boltzmann Machines (RBMs) and Variational Autoencode
 - **Output:** soft, smooth, sometimes blurry reconstructions
 - **Feels like:** a visual fog where your dataset's artistic style *"lives"*
 
-🖼️ **Example result:** impressionistic renditions of paintings, with recognizable patterns or color palettes, but not high realism
+**Example result:** impressionistic renditions of paintings, with recognizable patterns or color palettes, but not high realism
 
 
 ## 🔍 Summary Table: Generative Models
@@ -49,7 +47,7 @@ You can use both Restricted Boltzmann Machines (RBMs) and Variational Autoencode
 | GAN   | ≥ 256×256         | Sharp, photorealistic     | High visual quality, crisp images | Mode collapse, training instability |
 | Diffusion | Any size (scalable) | Very high fidelity, progressive | State-of-the-art generation, strong diversity | Slow sampling, computationally intensive |
 
-### ✨ Artistic Opportunities
+### Artistic Opportunities
 
 - **RBM** = chance, abstraction, entropy  
   → Use for: **texture overlays**, **base layers**, or **glitch aesthetics**
@@ -100,7 +98,7 @@ Consider estimating the **mean** of a high-dimensional Gaussian vector. If the n
 
 # Mathematics of Autoencoders (AE), Restricted Boltzmann Machines (RBM), and Statistical Estimators
 
-## ✨ Autoencoder (AE) Equations
+## Autoencoder (AE) Equations
 
 An autoencoder is a type of neural network used to learn low-dimensional representations (encodings) of data.
 
@@ -127,7 +125,7 @@ $$
 
 ---
 
-## 🔁 Restricted Boltzmann Machine (RBM) Equations
+## Restricted Boltzmann Machine (RBM) Equations
 
 An RBM is a generative stochastic neural network that models the probability distribution of binary or continuous inputs.
 
@@ -162,7 +160,7 @@ Estimating the weights of a **Restricted Boltzmann Machine (RBM)** is a **statis
 
 ---
 
-### 🧮 Sample Mean and Variance
+### Sample Mean and Variance
 
 Let $x_1, x_2, \dots, x_N$ be $N$ independent observations of some random variable $X$ (e.g., pixel intensities or activation states).
 
@@ -184,7 +182,7 @@ This measures the variability of the sample — crucial when estimating the unce
 
 ---
 
-### 📏 Confidence Interval (CI)
+### Confidence Interval (CI)
 
 Assuming the sample mean $\hat{\mu}$ follows a normal distribution (by the Central Limit Theorem), a **95% confidence interval** for the true mean is:
 
@@ -200,7 +198,7 @@ Where:
 
 ---
 
-## 🔗 Connecting RBM Weight Estimators to Confidence Intervals
+## Connecting RBM Weight Estimators to Confidence Intervals
 
 Each RBM weight $w_{ij}$ connects visible unit $i$ and hidden unit $j$, and is updated using stochastic gradients over a limited dataset.
 
@@ -212,7 +210,7 @@ RBMs trained on raw high-dimensional images (e.g., $64 \times 64 = 4096$ pixels)
 
 ---
 
-### 🔗 Connection to RBM Weights
+### Connection to RBM Weights
 
 Training an RBM involves estimating probabilities such as:
 
@@ -232,7 +230,7 @@ These expectations are empirically estimated — effectively sample means over m
 
 ---
 
-### ⚠️ Why This Matters
+### Why This Matters
 
 If the latent representation (e.g., image pixels) is too high-dimensional, we need exponentially more samples to achieve reliable estimates with narrow confidence intervals.
 
@@ -246,7 +244,7 @@ This is akin to **reducing the dimensionality of your estimator space**, leading
 
 ---
 
-## 🚀 Why Combine AE + RBM?
+## Why Combine AE + RBM?
 
 Using an autoencoder, we can **compress** high-dimensional images into low-dimensional **latent codes**:
 
@@ -275,7 +273,7 @@ Using an autoencoder, we can **compress** high-dimensional images into low-dimen
 
 <div align="center">
 
-<img src="./aibasics/Figures/AE-RBMgeneratedsamples_STUDENT_PHOTOS128x128.png" alt="AE-RBM generated samples" width="50%">
+<img src="./Figures/AE-RBMgeneratedsamples_STUDENT_PHOTOS128x128.png" alt="AE-RBM generated samples" width="50%">
 
 *FIGURE 2:AE-RBM generated samples of faces: image size 128x128x3, latent space dimension 128, 64 hidden neurons*  
 
@@ -285,7 +283,7 @@ Using an autoencoder, we can **compress** high-dimensional images into low-dimen
 
 <div align="center">
 
-<img src="./aibasics/Figures/RBM_piet.png" alt="RBM samples of Piet Mondrian artwork" width="50%">
+<img src="./Figures/RBM_piet.png" alt="RBM samples of Piet Mondrian artwork" width="50%">
 
 *FIGURE 3:RBM samples of Piet Mondrian artwork: image size 128x128x3, 64 hidden neurons*  
 
@@ -294,7 +292,7 @@ Using an autoencoder, we can **compress** high-dimensional images into low-dimen
 
 <div align="center">
 
-<img src="./aibasics/Figures/AE-RBMgeneratedsamples_Piet_Mondrian_geometric128x128.png" alt="AE-RBM samples of Piet Mondrian artwork" width="50%">
+<img src="./Figures/AE-RBMgeneratedsamples_Piet_Mondrian_geometric128x128.png" alt="AE-RBM samples of Piet Mondrian artwork" width="50%">
 
 *FIGURE 4:AE-RBM samples of Piet Mondrian artwork: image size 128x128x3, latent space dimension 128, 64 hidden neurons*  
 
@@ -302,10 +300,16 @@ Using an autoencoder, we can **compress** high-dimensional images into low-dimen
 
 
 
-## 📚 References
+## References
 
 - Hinton, G.E., & Salakhutdinov, R.R. (2006). Reducing the dimensionality of data with neural networks. *Science*.
 - Fischer, A., & Igel, C. (2012). An introduction to restricted Boltzmann machines. *Progress in Pattern Recognition*.
 - MacKay, D.J.C. (2003). *Information Theory, Inference, and Learning Algorithms*.
 
+___
 
+<div align="center">
+
+[⬅️ Previous](autoencoders.md) | [🏠 Home](/README.md) | [Next ➡️](transformer.md)
+
+</div>

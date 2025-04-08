@@ -158,7 +158,13 @@ Maximize the likelihood $\log P(v)$ using Contrastive Divergence.
 
 ## 📊 Statistical Estimators and Confidence Intervals
 
-Estimating RBM weights is a **statistical inference problem**. For each weight $w_i$, we are essentially estimating the mean of a stochastic distribution.
+Estimating the weights of a **Restricted Boltzmann Machine (RBM)** is a **statistical inference** task. Each weight $w_{ij}$ connecting visible unit $i$ and hidden unit $j$ is treated as a parameter learned from data. Since RBMs are trained on small, often noisy datasets (especially in artistic applications), **confidence intervals (CIs)** and variance estimates become critical to understanding model reliability.
+
+---
+
+### 🧮 Sample Mean and Variance
+
+Let $x_1, x_2, \dots, x_N$ be $N$ independent observations of some random variable $X$ (e.g., pixel intensities or activation states).
 
 **Sample Mean**:
 
@@ -166,17 +172,31 @@ $$
 \hat{\mu} = \frac{1}{N} \sum_{i=1}^{N} x_i
 $$
 
+This is our estimator for the expected value $\mathbb{E}[X]$.
+
 **Sample Variance**:
 
 $$
-\hat{\sigma}^2 = \frac{1}{N-1} \sum_{i=1}^{N} (x_i - \hat{\mu})^2
+\hat{\sigma}^2 = \frac{1}{N - 1} \sum_{i=1}^{N} (x_i - \hat{\mu})^2
 $$
 
-**Confidence Interval (CI)** for the mean (assuming normal distribution):
+This measures the variability of the sample — crucial when estimating the uncertainty in a model's weight.
+
+---
+
+### 📏 Confidence Interval (CI)
+
+Assuming the sample mean $\hat{\mu}$ follows a normal distribution (by the Central Limit Theorem), a **95% confidence interval** for the true mean is:
 
 $$
 \hat{\mu} \pm z_{\alpha/2} \cdot \frac{\hat{\sigma}}{\sqrt{N}}
 $$
+
+Where:
+
+- $z_{\alpha/2}$ is the critical value from the standard normal distribution (e.g., $1.96$ for 95% CI),
+- $\hat{\sigma}$ is the sample standard deviation,
+- $N$ is the number of samples.
 
 ---
 
@@ -189,6 +209,40 @@ If the dataset is **small**, the estimated gradients will have **high variance**
 The uncertainty in the weight estimates can be understood in terms of their **confidence intervals** — larger training sets produce narrower intervals and more reliable weights.
 
 RBMs trained on raw high-dimensional images (e.g., $64 \times 64 = 4096$ pixels) require **enormous datasets** for statistically reliable training. This is due to the **curse of dimensionality**, where the number of parameters scales quadratically with the number of visible units.
+
+---
+
+### 🔗 Connection to RBM Weights
+
+Training an RBM involves estimating probabilities such as:
+
+$$
+p(v_i = 1 \mid h_j) = \sigma(w_{ij} h_j + b_i)
+$$
+
+where $\sigma(\cdot)$ is the sigmoid function and $b_i$ is the bias for visible unit $i$.
+
+Each weight $w_{ij}$ is updated using **stochastic gradient descent** or **Contrastive Divergence (CD-k)**. The update relies on expectations of the form:
+
+$$
+\Delta w_{ij} \propto \langle v_i h_j \rangle_{\text{data}} - \langle v_i h_j \rangle_{\text{model}}
+$$
+
+These expectations are empirically estimated — effectively sample means over mini-batches. Hence, small datasets or poor sampling lead to high-variance estimates for $w_{ij}$, making training unstable.
+
+---
+
+### ⚠️ Why This Matters
+
+If the latent representation (e.g., image pixels) is too high-dimensional, we need exponentially more samples to achieve reliable estimates with narrow confidence intervals.
+
+Using an **Autoencoder (AE)** to reduce dimensionality helps by:
+
+- Lowering the number of parameters (weights) the RBM must learn
+- Improving the reliability of each $\hat{w}_{ij}$ estimate
+- Allowing smaller datasets to still yield useful generative models
+
+This is akin to **reducing the dimensionality of your estimator space**, leading to **tighter confidence intervals** and more **stable, interpretable outputs**.
 
 ---
 
@@ -214,7 +268,7 @@ Using an autoencoder, we can **compress** high-dimensional images into low-dimen
 
 <img src="./aibasics/Figures/RBMGenerated_STUDENT_PHOTOS128x128.png" alt="RBM generated samples" width="50%">
 
-*FIGURE 1:RBM generated samples of faces: image size 128x128x3, 64 hidden neurons *  
+*FIGURE 1:RBM generated samples of faces: image size 128x128x3, 64 hidden neurons*  
 
 </div>
 
@@ -233,7 +287,7 @@ Using an autoencoder, we can **compress** high-dimensional images into low-dimen
 
 <img src="./aibasics/Figures/RBM_piet.png" alt="RBM samples of Piet Mondrian artwork" width="50%">
 
-*FIGURE 3:RBM samples of Piet Mondrian artwork: image size 128x128x3, 64 hidden neurons *  
+*FIGURE 3:RBM samples of Piet Mondrian artwork: image size 128x128x3, 64 hidden neurons*  
 
 </div>
 

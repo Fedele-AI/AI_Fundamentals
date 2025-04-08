@@ -212,6 +212,46 @@ Using an autoencoder, we can **compress** high-dimensional images into low-dimen
 
 ---
 
+## Examples 
+
+<div align="center">
+
+<img src="./aibasics/Figures/RBMGenerated_STUDENT_PHOTOS128x128.png" alt="RBM generated samples" width="50%">
+
+*FIGURE 1:RBM generated samples of faces: image size 128x128x3, 64 hidden neurons *  
+
+</div>
+
+
+<div align="center">
+
+<img src="./aibasics/Figures/AE-RBMgeneratedsamples_STUDENT_PHOTOS128x128.png" alt="AE-RBM generated samples" width="50%">
+
+*FIGURE 2:AE-RBM generated samples of faces: image size 128x128x3, latent space dimension 128, 64 hidden neurons*  
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="./aibasics/Figures/RBM_piet.png" alt="RBM samples of Piet Mondrian artwork" width="50%">
+
+*FIGURE 3:RBM samples of Piet Mondrian artwork: image size 128x128x3, 64 hidden neurons *  
+
+</div>
+
+
+<div align="center">
+
+<img src="./aibasics/Figures/AE-RBMgeneratedsamples_Piet_Mondrian_geometric128x128.png" alt="AE-RBM samples of Piet Mondrian artwork" width="50%">
+
+*FIGURE 4:AE-RBM samples of Piet Mondrian artwork: image size 128x128x3, latent space dimension 128, 64 hidden neurons*  
+
+</div>
+
+
+
 ## 📚 References
 
 - Hinton, G.E., & Salakhutdinov, R.R. (2006). Reducing the dimensionality of data with neural networks. *Science*.

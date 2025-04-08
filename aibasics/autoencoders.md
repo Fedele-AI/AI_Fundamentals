@@ -38,6 +38,6 @@ Autoencoders with latent space interpolation are often used for **generative tas
 
 <div align="center">
 
-[⬅️ Previous](normalizingflow.md) | [🏠 Home](/README.md) | [Next ➡️](transformer.md)
+[⬅️ Previous](normalizingflow.md) | [🏠 Home](/README.md) | [Next ➡️](AEwithBM.md)
 
 </div>

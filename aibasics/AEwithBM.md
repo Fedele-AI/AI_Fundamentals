@@ -264,7 +264,7 @@ Using an autoencoder, we can **compress** high-dimensional images into low-dimen
 
 <div align="center">
 
-<img src="./aibasics/Figures/RBMGenerated_STUDENT_PHOTOS128x128.png" alt="RBM generated samples" width="50%">
+<img src="./Figures/RBMGenerated_STUDENT_PHOTOS128x128.png" alt="RBM generated samples" width="50%">
 
 *FIGURE 1:RBM generated samples of faces: image size 128x128x3, 64 hidden neurons*  
 

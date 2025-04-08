@@ -49,10 +49,16 @@ You can use both Restricted Boltzmann Machines (RBMs) and Variational Autoencode
 
 🖼️ Example result: impressionistic renditions of paintings, with recognizable patterns or color palettes, but not high realism
 
-💡 Summary Table:
-Model	Image Size	Output Style	Strength	Weakness
-RBM	≤ 32×32	Grainy, stochastic, noisy	Conceptual, chaotic textures	Low fidelity, hard to train
-VAE	≤ 128×128	Smooth, soft, blurry	Structured, interpolable space	Blurry reconstructions
+## 🔍 Summary Table: Generative Models
+
+| Model | Input Image Size | Output Style | Strength | Weakness |
+|-------|------------------|--------------|----------|----------|
+| RBM   | ≤ 32×32           | Grainy, stochastic, noisy | Captures chaotic textures, good for conceptual patterns | Low fidelity, unstable training, requires large datasets |
+| VAE   | ≤ 128×128         | Smooth, soft, blurry      | Structured and continuous latent space, good interpolation | Blurry reconstructions, less sharpness |
+| AE + RBM | ≥ 128×128 (compressed) | More coherent than RBM alone | Combines structured latent space with generative sampling | Depends heavily on quality of encoder; training two models |
+| GAN   | ≥ 256×256         | Sharp, photorealistic     | High visual quality, crisp images | Mode collapse, training instability |
+| Diffusion | Any size (scalable) | Very high fidelity, progressive | State-of-the-art generation, strong diversity | Slow sampling, computationally intensive |
+
 
 ✨ Artistic Opportunities
 

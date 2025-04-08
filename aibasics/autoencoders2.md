@@ -1,6 +1,7 @@
-RBM - VAE: pros and cons
 
-you can use both Restricted Boltzmann Machines (RBMs) and Variational Autoencoders (VAEs) to generate art images — but the kind of images you’ll get, and the process you’ll follow, are quite different. Below is a breakdown to help you understand what you can expect:
+### RBM versus VAE: pros and cons
+
+You can use both Restricted Boltzmann Machines (RBMs) and Variational Autoencoders (VAEs) to generate art images — but the kind of images you’ll get, and the process you’ll follow, are quite different. Below is a breakdown to help you understand what you can expect:
 
 🧠 RBM (Restricted Boltzmann Machine)
 → Good for: low-resolution, abstract, grainy, noisy, dreamlike images

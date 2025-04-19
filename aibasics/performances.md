@@ -8,39 +8,39 @@
 
 ## Improv-AI
 
-**🗓️ Date:** April 15th, 2025  
+**🗓️ Date:** April 15th, 2025.
 
-**📍 Location:** In front of the Van Leer building at Georgia Tech
+**📍 Location:** In front of the Van Leer building at Georgia Tech.
 
 This live dance demo was the second performance at Fedele_AI to utilize overhauled code developed by Head TA Alex Jenkins and Dennis Frank. In this performance, a dancer was randomly selected to use their brainwaves for neurofeedback-driven music. The music was composed by Dennis Frank.
 
-**🎥 Video:**  
+**🎥 Video Playlist:**  
 [![Improv-AI Performance](https://img.youtube.com/vi/BwBCA7UFbrM/0.jpg)](https://www.youtube.com/watch?v=BwBCA7UFbrM&list=PLNIeiKhj4_QSzZ5uFwLgEfAH1NiTtadiH)
 
 ---
 
 ## Expression-AI
 
-**🗓️ Date:** October 30th, 2024  
+**🗓️ Date:** October 30th, 2024.
 
-**📍 Location:** In front of the Ferst Center for the Arts at Georgia Tech
+**📍 Location:** In front of the Ferst Center for the Arts at Georgia Tech.
 
 This live dance demo marked the first performance at Fedele_AI to implement the newly overhauled code written by Head TA Alex Jenkins and Ishaan Ali. In this performance, an off-screen donor performed actions to generate neurofeedback for music. The music was developed by Ishaan Ali and Dennis Frank.
 
-**🎥 Video:**  
+**🎥 Video Playlist:**  
 [![Expression-AI Performance](https://img.youtube.com/vi/ZKQjU_rlLKE/0.jpg)](https://www.youtube.com/watch?v=ZKQjU_rlLKE&list=PLNIeiKhj4_QRKH-fXi5uLzfnXnkHhH3j4)
 
 ---
 
 ## Brain Art & Dance
 
-**🗓️ Date:** April 17th, 2023
+**🗓️ Date:** April 17th, 2023.
 
 **📍 Location:** Atlantic Theatre, John Lewis Student Center at Georgia Tech.
 
 A collection of live performances that took place during the early stages of Fedele_AI. The original code and music were developed by Dennis Frank.
 
-**🎥 Video:**  
+**🎥 Video Playlist:**  
 [![Brain Art & Dance Performance](https://img.youtube.com/vi/r8uh-JLxU4U/0.jpg)](https://www.youtube.com/watch?v=r8uh-JLxU4U&list=PLNIeiKhj4_QQRC2V8liyhhaSpvLVnZEEJ)
 
 ---

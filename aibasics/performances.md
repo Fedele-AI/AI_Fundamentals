@@ -38,10 +38,23 @@ This live dance demo marked the first performance at Fedele_AI to implement the 
 
 **📍 Location:** Atlantic Theatre, John Lewis Student Center at Georgia Tech.
 
-A collection of live performances that took place during the early stages of Fedele_AI. The original code and music were developed by Dennis Frank.
+Code and expanded music were developed by Dennis Frank.
 
 **🎥 Video Playlist:**  
 [![Brain Art & Dance Performance](https://img.youtube.com/vi/r8uh-JLxU4U/0.jpg)](https://www.youtube.com/watch?v=r8uh-JLxU4U&list=PLNIeiKhj4_QQRC2V8liyhhaSpvLVnZEEJ)
+
+---
+
+## Mind Melody
+
+**🗓️ Date:** April 8th, 2022.
+
+**📍 Location:** Hodges Room, Centergy One Building at Georgia Tech.
+
+A live performances that took place during the early stages of Fedele_Lab. The original code and music were developed by Dennis Frank.
+
+**🎥 Video Playlist:**  
+[![Mind Melody](https://img.youtube.com/vi/ZB7Gk1lVZFM/0.jpg)](https://www.youtube.com/watch?v=ZB7Gk1lVZFM)
 
 ---
 

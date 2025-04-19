@@ -57,7 +57,7 @@ ___
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px; align-items: center;">  
 
-  **Version: 1.1**
+  **Version: 1.2**
 
 </div>
 

@@ -58,4 +58,10 @@ A live performances that took place during the early stages of Fedele_Lab. The o
 
 ---
 
+## In The News
+
+[![Read GaTech Press Release](https://img.shields.io/badge/Read%20Press%20Release-%23003057?style=for-the-badge&logo=readthedocs&logoColor=white)](https://ce.gatech.edu/news/2025/05/new-course-broadens-students-horizons-using-ai)
+
+---
+
 *For more information, visit the [Fedele AI Lab website](https://sites.gatech.edu/fedelelab/our-performances/).*

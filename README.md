@@ -93,7 +93,7 @@ This series covers the following topics, and you are encouraged to read the modu
 ---
 
 ## About
-This educational series has been meticulously crafted to serve a diverse audience of learners, from those taking their very first steps into artificial intelligence to those with prior exposure seeking to deepen their understanding. The curriculum follows a carefully designed progression that builds foundational knowledge while gradually introducing more complex concepts. This textbook was created for, and is actively used in, Georgia Tech’s [CEE 4803 - Art & Generative AI](https://github.com/Fedele-AI/Art_and_AI) course.
+This educational series has been meticulously crafted to serve a diverse audience of learners, from those taking their very first steps into artificial intelligence to those with prior exposure seeking to deepen their understanding. The curriculum follows a carefully designed progression that builds foundational knowledge while gradually introducing more complex concepts. This textbook was created for, [and was used in](https://ce.gatech.edu/news/2025/05/new-course-broadens-students-horizons-using-ai) Georgia Tech’s [CEE 4803 - Art & Generative AI](https://github.com/Fedele-AI/Art_and_AI) course.
 
 For beginners, we've taken special care to explain concepts clearly with intuitive examples and visualizations that make abstract ideas concrete. Meanwhile, more experienced learners will find sufficient depth and advanced material to expand their knowledge boundaries. If you already possess familiarity with certain fundamental topics, you're encouraged to navigate directly to modules that challenge your current expertise level.
 

@@ -100,8 +100,10 @@ For beginners, we've taken special care to explain concepts clearly with intuiti
 This series represents our commitment to making high-quality AI education accessible to everyone, regardless of background or prior technical experience. 'AI' as we know it today, exists as a marketing term - we aim to democratize access to AI knowledge, foster critical thinking about AI's capabilities and limitations, and empower a new generation of innovators to apply these tools ethically and creatively. The interdisciplinary approach integrates perspectives from computer science, mathematics, engineering, and cognitive science to provide a comprehensive understanding of how artificial intelligence systems work and evolve.
 We sincerely hope this learning journey proves valuable as you explore the fascinating world of artificial intelligence, whether your goals involve academic advancement, professional development, or personal enrichment! Your feedback is welcomed as we continuously strive to improve and expand these educational resources.
 
-### Want to see performances with materials from the course?
-We've got just the thing for you! **Check out our [Perfomances Page](./aibasics/performances.md) for a collection of videos showcasing the results of our work.** From generative art to AI-driven projects, you'll find a variety of content that highlights the potential of AI in creative applications. Don't forget to subscribe to stay updated on our latest releases!
+---
+> [!NOTE]
+> ### Want to see performances with materials from our research?
+> We've got just the thing for you! **Check out our [Perfomances Page](./aibasics/performances.md) for a collection of videos showcasing [the results of our work](https://sites.gatech.edu/fedelelab/).** From generative art to AI-driven projects, you'll find a variety of content that highlights the potential of AI in creative applications.
 
 ---
 

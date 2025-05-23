@@ -102,7 +102,7 @@ We sincerely hope this learning journey proves valuable as you explore the fasci
 
 ---
 > [!NOTE]
-> ### Want to see performances with materials from our research?
+> ### Want to see creative performances with materials from our research?
 > We've got just the thing for you! **Check out our [Perfomances Page](./aibasics/performances.md) for a collection of videos showcasing [the results of our work](https://sites.gatech.edu/fedelelab/).** From generative art to AI-driven projects, you'll find a variety of content that highlights the potential of AI in creative applications.
 
 ---

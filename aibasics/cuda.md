@@ -4,6 +4,8 @@
 
 # CUDA Fundamentals
 
+<img src="./Figures/cuda.png" alt="Linear Perceptron" width="26%">
+
 </div>
 
 > [!NOTE]

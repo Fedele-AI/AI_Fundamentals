@@ -101,11 +101,6 @@ This series represents our commitment to making high-quality AI education access
 We sincerely hope this learning journey proves valuable as you explore the fascinating world of artificial intelligence, whether your goals involve academic advancement, professional development, or personal enrichment! Your feedback is welcomed as we continuously strive to improve and expand these educational resources.
 
 ---
-> [!NOTE]
-> ### Want to see creative performances with materials from our research?
-> We've got just the thing for you! **Check out our [Perfomances Page](./aibasics/performances.md) for a collection of videos showcasing [the results of our work](https://sites.gatech.edu/fedelelab/).** From generative art to AI-driven projects, you'll find a variety of content that highlights the potential of AI in creative applications.
-
----
 
 ## License
 This textbook features libre code samples and documentation. [We respect your freedom](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms). To accommodate license compatibility concerns, the project is dual-licensed under the `GPLv3` and the `GFDL 1.3`. Users are encouraged to honor the principles of free software by ensuring full compliance with both licenses when using, modifying, or sharing this material.
@@ -126,15 +121,24 @@ The code provided in this repository is licensed under the **GNU General Public 
 
 ---
 
+## Miscellaneous
 > [!IMPORTANT]  
-> We want your help! Whether through code, comments, ideas, or documentation - we're committed to making this textbook the best it can be.
+> ### We want your help!
+>
+> Whether through code, comments, ideas, or documentation - we're committed to making this textbook the best it can be.
 >   
 > If you'd like to contribute to this repository, please [read and accept our Contributor Code of Conduct](./CODE_OF_CONDUCT.md). Fedele_AI is dedicated to fostering a welcoming and collaborative environment for everyone, and your participation is essential to that mission.  
 >   
-> For issues, ideas, or questions, check out the [Discussions](https://github.com/Fedele-AI/AI_Fundamentals/discussions) tab above.  
+> For issues, ideas, questions, or just to show off - check out the [Discussions](https://github.com/Fedele-AI/AI_Fundamentals/discussions) tab above.  
 
-This textbook was made with ❤️ in Atlanta, Georgia 🇺🇸 - [Go Jackets!](https://gatech.edu)
-
-___
+> [!NOTE]
+> ### Want to see creative performances with materials from our research?
+> We've got just the thing for you! **Check out our [Perfomances Page](./aibasics/performances.md) for a collection of videos showcasing [the results of our work](https://sites.gatech.edu/fedelelab/).** From generative art to AI-driven projects, you'll find a variety of content that highlights the potential of AI in creative applications.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Fedele-AI/AI_Fundamentals&type=Timeline)](https://www.star-history.com/#Fedele-AI/AI_Fundamentals&Timeline)
+
+<div align="center">
+  
+This textbook was made with ❤️ in Atlanta, Georgia 🇺🇸 - [Go Jackets! 🐝](https://gatech.edu)
+
+</div>

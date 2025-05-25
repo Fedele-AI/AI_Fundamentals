@@ -560,6 +560,6 @@ It is therefore essential to approach LLMs with both technical understanding and
 
 <div align="center">
 
-[⬅️ Previous](autoencoders.md) | [🏠 Home](/README.md) | [Next ➡️](encoder_transformer_decoder.md)
+[⬅️ Previous](AEwithRBM.md) | [🏠 Home](/README.md) | [Next ➡️](encoder_transformer_decoder.md)
 
 </div>

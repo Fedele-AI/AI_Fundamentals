@@ -4,7 +4,7 @@
 
 # Combined Autoencoders with Boltzmann Machines
 
-<!-- <img src="./Figures/Hopfield.png" alt="Hopfield Network" width="40%"> -->
+<img src="./Figures/AEwithBM.png" alt="Hopfield Network" width="40%">
 
 </div>
 

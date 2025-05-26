@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# Combined Autoencoders with Boltzmann Machines
+# Combined Autoencoders and Boltzmann Machines
 
 <img src="./Figures/AEwithBM.png" alt="Hopfield Network" width="40%">
 

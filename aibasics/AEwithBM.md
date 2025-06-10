@@ -1,4 +1,14 @@
-### Combined Autoencoder with Boltzmann Machines
+<!-- Written by Alex Jenkins and Dr. Francesco Fedele for CEE4803/LMC4813 - (c) Georgia Tech, Spring 2025 -->
+
+<div align="center">
+
+# Combined Autoencoders and Boltzmann Machines
+
+<img src="./Figures/AEwithBM.png" alt="Hopfield Network" width="40%">
+
+</div>
+
+## Introduction
 
 You can use both Restricted Boltzmann Machines (RBMs) and Variational Autoencoders (VAEs) to generate art images — but the kind of images you’ll get, and the process you’ll follow, are quite different. Below is a breakdown to help you understand what you can expect:
 
@@ -37,7 +47,7 @@ You can use both Restricted Boltzmann Machines (RBMs) and Variational Autoencode
 **Example result:** impressionistic renditions of paintings, with recognizable patterns or color palettes, but not high realism
 
 
-## 🔍 Summary Table: Generative Models
+## Summary Table: Generative Models
 
 | Model | Input Image Size | Output Style | Strength | Weakness |
 |-------|------------------|--------------|----------|----------|
@@ -125,7 +135,7 @@ $$
 
 ---
 
-## Restricted Boltzmann Machine (RBM) Equations
+### Restricted Boltzmann Machine (RBM) Equations
 
 An RBM is a generative stochastic neural network that models the probability distribution of binary or continuous inputs.
 
@@ -154,13 +164,13 @@ Maximize the likelihood $\log P(v)$ using Contrastive Divergence.
 
 ---
 
-## 📊 Statistical Estimators and Confidence Intervals
+### Statistical Estimators and Confidence Intervals
 
 Estimating the weights of a **Restricted Boltzmann Machine (RBM)** is a **statistical inference** task. Each weight $w_{ij}$ connecting visible unit $i$ and hidden unit $j$ is treated as a parameter learned from data. Since RBMs are trained on small, often noisy datasets (especially in artistic applications), **confidence intervals (CIs)** and variance estimates become critical to understanding model reliability.
 
 ---
 
-### Sample Mean and Variance
+#### Sample Mean and Variance
 
 Let $x_1, x_2, \dots, x_N$ be $N$ independent observations of some random variable $X$ (e.g., pixel intensities or activation states).
 
@@ -182,7 +192,7 @@ This measures the variability of the sample — crucial when estimating the unce
 
 ---
 
-### Confidence Interval (CI)
+#### Confidence Interval (CI)
 
 Assuming the sample mean $\hat{\mu}$ follows a normal distribution (by the Central Limit Theorem), a **95% confidence interval** for the true mean is:
 
@@ -198,7 +208,7 @@ Where:
 
 ---
 
-## Connecting RBM Weight Estimators to Confidence Intervals
+### Connecting RBM Weight Estimators to Confidence Intervals
 
 Each RBM weight $w_{ij}$ connects visible unit $i$ and hidden unit $j$, and is updated using stochastic gradients over a limited dataset.
 
@@ -210,7 +220,7 @@ RBMs trained on raw high-dimensional images (e.g., $64 \times 64 = 4096$ pixels)
 
 ---
 
-### Connection to RBM Weights
+#### Connection to RBM Weights
 
 Training an RBM involves estimating probabilities such as:
 
@@ -244,7 +254,7 @@ This is akin to **reducing the dimensionality of your estimator space**, leading
 
 ---
 
-## Why Combine AE + RBM?
+### Why Combine AE + RBM?
 
 Using an autoencoder, we can **compress** high-dimensional images into low-dimensional **latent codes**:
 
@@ -260,7 +270,7 @@ Using an autoencoder, we can **compress** high-dimensional images into low-dimen
 
 ---
 
-## Examples 
+### Examples 
 
 <div align="center">
 
@@ -302,9 +312,9 @@ Using an autoencoder, we can **compress** high-dimensional images into low-dimen
 
 ## References
 
-- Hinton, G.E., & Salakhutdinov, R.R. (2006). Reducing the dimensionality of data with neural networks. *Science*.
-- Fischer, A., & Igel, C. (2012). An introduction to restricted Boltzmann machines. *Progress in Pattern Recognition*.
-- MacKay, D.J.C. (2003). *Information Theory, Inference, and Learning Algorithms*.
+- **Hinton, G.E., & Salakhutdinov, R.R. (2006).** _Reducing the dimensionality of data with neural networks. Science._
+- **Fischer, A., & Igel, C. (2012).** _An introduction to restricted Boltzmann machines. Progress in Pattern Recognition._
+- **MacKay, D.J.C. (2003).** _Information Theory, Inference, and Learning Algorithms._
 
 ___
 

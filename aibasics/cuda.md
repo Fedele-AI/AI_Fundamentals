@@ -4,6 +4,8 @@
 
 # CUDA Fundamentals
 
+<img src="./Figures/cuda.png" alt="Linear Perceptron" width="26%">
+
 </div>
 
 > [!NOTE]
@@ -39,16 +41,17 @@ In the world of Python programming, CUDA helps us use the "many hands" of the GP
 ### Video 1. How CUDA works in 100 Seconds (by Fireship)
 [![Watch the video](https://img.youtube.com/vi/pPStdjuYzSI/0.jpg)](https://www.youtube.com/watch?v=pPStdjuYzSI)
 
-### Video 2. Mythbusters Demo GPU Versus CPU (by NVIDIA)
-[![Watch the video](https://img.youtube.com/vi/-P28LKWTzrI/0.jpg)](https://youtu.be/-P28LKWTzrI)
+### Video 2. What is CUDA? - (by Computerphile)
+[![Watch the video](https://img.youtube.com/vi/K9anz4aB0S0/0.jpg)](https://www.youtube.com/watch?v=K9anz4aB0S0)
 
 ### Video 3. Intro to CUDA (by NVIDIA)
 [![Watch the video](https://img.youtube.com/vi/IzU4AVcMFys/0.jpg)](https://www.youtube.com/watch?v=IzU4AVcMFys)
 
 ## Refrences and Further Reading
 
-**NVIDIA Corporation.** "CUDA: Compute Unified Device Architecture." *NVIDIA Programming Guide*, 2007. [Available online](https://developer.download.nvidia.com/compute/cuda/1.0/NVIDIA_CUDA_Programming_Guide_1.0.pdf).
+**NVIDIA Corporation.** "CUDA: Compute Unified Device Architecture." *NVIDIA Programming Guide v1.0*, 2007. [Available online](https://developer.download.nvidia.com/compute/cuda/1.0/NVIDIA_CUDA_Programming_Guide_1.0.pdf).
 
+**NVIDIA Corporation.** "CUDA C++ Programming Guide." *NVIDIA Programming Guide*. [Available online](https://docs.nvidia.com/cuda/cuda-c-programming-guide/).
 
 ---
 

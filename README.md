@@ -57,7 +57,7 @@ ___
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px; align-items: center;">  
 
-  **Version: 1.1**
+  **Version: 1.2**
 
 </div>
 
@@ -93,7 +93,7 @@ This series covers the following topics, and you are encouraged to read the modu
 ---
 
 ## About
-This educational series has been meticulously crafted to serve a diverse audience of learners, from those taking their very first steps into artificial intelligence to those with prior exposure seeking to deepen their understanding. The curriculum follows a carefully designed progression that builds foundational knowledge while gradually introducing more complex concepts. This textbook was created for, and is actively used in, Georgia Tech’s [CEE 4803 - Art & Generative AI](https://github.com/Fedele-AI/Art_and_AI) course.
+This educational series has been meticulously crafted to serve a diverse audience of learners, from those taking their very first steps into artificial intelligence to those with prior exposure seeking to deepen their understanding. The curriculum follows a carefully designed progression that builds foundational knowledge while gradually introducing more complex concepts. This textbook was created for, [and was used in](https://ce.gatech.edu/news/2025/05/new-course-broadens-students-horizons-using-ai), Georgia Tech’s [CEE 4803 - Art & Generative AI](https://github.com/Fedele-AI/Art_and_AI) course.
 
 For beginners, we've taken special care to explain concepts clearly with intuitive examples and visualizations that make abstract ideas concrete. Meanwhile, more experienced learners will find sufficient depth and advanced material to expand their knowledge boundaries. If you already possess familiarity with certain fundamental topics, you're encouraged to navigate directly to modules that challenge your current expertise level.
 
@@ -121,15 +121,24 @@ The code provided in this repository is licensed under the **GNU General Public 
 
 ---
 
+## Miscellaneous
 > [!IMPORTANT]  
-> We want your help! Whether through code, comments, ideas, or documentation - we're committed to making this textbook the best it can be.
+> ### We want your help!
+>
+> Whether through code, comments, ideas, or documentation - we're committed to making this textbook the best it can be.
 >   
 > If you'd like to contribute to this repository, please [read and accept our Contributor Code of Conduct](./CODE_OF_CONDUCT.md). Fedele_AI is dedicated to fostering a welcoming and collaborative environment for everyone, and your participation is essential to that mission.  
 >   
-> For issues, ideas, or questions, check out the [Discussions](https://github.com/Fedele-AI/AI_Fundamentals/discussions) tab above.  
+> For issues, ideas, questions, or just to show off - check out the [Discussions](https://github.com/Fedele-AI/AI_Fundamentals/discussions) tab above.  
 
-This textbook was made with ❤️ in Atlanta, Georgia 🇺🇸 - [Go Jackets!](https://gatech.edu)
-
-___
+> [!NOTE]
+> ### Want to see creative performances with materials from our research?
+> We've got just the thing for you! **Check out our [Perfomances Page](./aibasics/performances.md) for a collection of videos showcasing [the results of our work](https://sites.gatech.edu/fedelelab/).** From generative art to AI-driven projects, you'll find a variety of content that highlights the potential of AI in creative applications.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Fedele-AI/AI_Fundamentals&type=Timeline)](https://www.star-history.com/#Fedele-AI/AI_Fundamentals&Timeline)
+
+<div align="center">
+  
+This textbook was made with ❤️ in Atlanta, Georgia 🇺🇸 - [Go Jackets! 🐝](https://gatech.edu)
+
+</div>

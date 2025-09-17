@@ -111,16 +111,97 @@ $P$ is an exponentially decreasing function of $\Delta E$, meaning that larger e
 This algorithm mimics real thermal fluctuations, allowing the system to evolve toward configurations with minimal energy. At high temperatures ($T$ large, $\beta$ small), even unfavorable flips ($\Delta E>0$) are frequently accepted, allowing the system to explore a wider state space. At low temperatures ($T$ small, $β$ large), unfavorable flips are rarely accepted, driving the system toward lower-energy configurations (annealing effect). This probabilistic acceptance rule ensures that the system follows the Boltzmann distribution, leading to proper thermal equilibrium in Monte Carlo simulations.
 
 
-
 ### Phase Transition in the Ising Model
 
 The one-dimensional (1D) Ising model does not exhibit a phase transition at finite temperature because thermal fluctuations always destroy long-range order. The minimal energy configurations in 1D consist of all spins being either up or down.
 
 In contrast, the two-dimensional (2D) Ising model exhibits a phase transition at a critical temperature $T_c$. Below $T_c$, spontaneous magnetization occurs, leading to the formation of coherent spin domains. Above $T_c$, thermal energy disrupts this order, leading to a disordered phase.
 
+
+# Spontaneous Emergence in 2D Ising Model
+
+## Lattice and Hamiltonian
+Consider a 2D square lattice of spins $s_{i,j} = \pm 1$.  
+Spins interact with their nearest neighbors via the Ising Hamiltonian:
+
+$$
+H = -J \sum_{\langle i,j \rangle} s_i s_j, \quad J>0 \text{ (ferromagnetic)},
+$$
+
+and there is no external field ($h=0$).
+
+At high temperature, thermal fluctuations dominate: spins flip randomly and there is no net magnetization.
+
+## Spontaneous Emergence at Low Temperature
+At low temperature, the system tends to minimize energy. For $J>0$, this happens when neighboring spins align.  
+
+Even though the Hamiltonian is symmetric (up and down are equivalent), the system “chooses” one global orientation. This is called *spontaneous symmetry breaking*: the energy does not favor up or down, but the macroscopic state does.  
+
+If the system is large, almost all spins point mostly up or mostly down, forming a ferromagnetic domain.
+
+## Emergence from Local Interactions
+Locally, each spin interacts only with its nearest neighbors. Yet, at low temperature, these local rules propagate across the lattice, producing long-range order.  
+The result is an *emergent magnetization* at the macroscopic scale, even though the underlying rules are simple.
+
+## Key Features
+- Order appears without external guidance — purely from interactions.
+- Domains form — clusters of aligned spins.
+- Critical temperature $T_c$:
+  - Above $T_c$: disordered, $M \approx 0$
+  - Below $T_c$: ordered, $M \neq 0$
+
+In 2D, Onsager (1944) showed the exact critical temperature for the square lattice [Onsager, 1944]:
+
+$$
+k_B T_c = \frac{2J}{\ln(1+\sqrt{2})} \approx 2.269 \, J
+$$
+
+where $k_B$ is the Boltzmann constant.
+
+
+# Connection Between the Ising Model and Neural Networks
+
+The Ising model provides a simple framework to understand how **local interactions between microscopic units** can give rise to **macroscopic emergent properties**. Each spin interacts only with its neighbors, yet at low temperatures, **long-range order** and spontaneous magnetization appear. This idea of emergence is directly analogous to how **neural networks** and **large language models (LLMs)** operate.
+
+## Neural Networks as Generalized Ising Models
+
+- In neural networks, the basic units are **neurons**, which compute outputs based on the inputs from connected neurons and a nonlinear activation function.
+- The weights between neurons play a role analogous to the interaction strength \(J\) in the Ising model.
+- The network as a whole can develop **global behavior** (e.g., pattern recognition, classification) from **local computations** at the level of individual neurons.
+
+## Emergence in Large Language Models
+
+Large language models, such as GPT or other transformer-based architectures, consist of billions of interconnected neurons (parameters). Despite the simplicity of each neuron (a weighted sum followed by a nonlinear function), the network can exhibit **complex macroscopic capabilities**, including:
+
+- Translating languages
+- Answering questions
+- Performing mathematical reasoning
+
+This can be viewed as an **emergent property**:
+
+1. Each neuron follows **simple local rules** (activation based on inputs and learned weights).  
+2. Layers of neurons interact to form **hierarchical representations**.  
+3. At the macroscopic scale, the network can perform tasks that **appear intelligent**, without any single neuron “knowing” the task.  
+
+### Analogy to the Ising Model
+
+| Concept                  | Ising Model                  | Neural Network / LLM                   |
+|---------------------------|-----------------------------|---------------------------------------|
+| Microscopic unit          | Spin $s_i$                  | Neuron (or attention unit)            |
+| Interaction               | Neighbor spins, $J$         | Weighted connections                  |
+| Nonlinearity              | None (or implicit in dynamics)| Activation function (ReLU, tanh, etc.)|
+| Macroscopic emergent behavior | Magnetization / domains   | Language understanding, reasoning     |
+| Temperature / noise       | $T$                         | Regularization / stochasticity        |
+
+Thus, the **ability of LLMs to perform complex tasks** can be seen as an emergent property of **local neuron rules**, in much the same way that spontaneous magnetization emerges in the 2D Ising model.
+
+
+
+
 ## References and Further Reading
 
 **Ising, Ernst.** "Contribution to the Theory of Ferromagnetism." *Zeitschrift für Physik*, vol. 31, no. 1, 1925, pp. 253–258. [DOI:10.1007/BF02980577](https://doi.org/10.1007/BF02980577). [English Translation](https://www.hs-augsburg.de/~harsch/anglica/Chronology/20thC/Ising/isi_fm01.html).
+**Onsager, Lars**, “Crystal Statistics. I. A Two-Dimensional Model with an Order-Disorder Transition,” *Physical Review*, vol. 65, pp. 117–149, 1944. [DOI: https://doi.org/10.1103/PhysRev.65.117](https://journals.aps.org/pr/abstract/10.1103/PhysRev.65.117)
 
 
 ---

@@ -230,10 +230,10 @@ In practice, $P$ up to several thousands can be stored reliably in networks with
    A pattern $\boldsymbol{\xi}^\mu$ is a fixed point if
 
    $$
-   \boldsymbol{\xi}^\mu = X \cdot \operatorname{softmax}(\beta X^\top \boldsymbol{\xi}^\mu).
+   \boldsymbol{\xi}^\mu = X \cdot \mathrm{softmax}(\beta X^\top \boldsymbol{\xi}^\mu).
    $$
 
-   At high $\beta$, $\operatorname{softmax}(\beta X^\top \boldsymbol{\xi}^\mu)$ becomes very close to a one-hot vector on pattern $\mu$:
+   At high $\beta$, $\mathrm{softmax}(\beta X^\top \boldsymbol{\xi}^\mu)$ becomes very close to a one-hot vector on pattern $\mu$:
 
    $$
    p_\nu \approx \delta_{\nu\mu} \quad \Rightarrow \quad \boldsymbol{\xi}^\mu \approx \boldsymbol{\xi}^\mu,
@@ -271,7 +271,7 @@ In practice, $P$ up to several thousands can be stored reliably in networks with
    $$
 
    depending on the precise model variant and pattern correlation structure.  
-   In practice, $P \sim 10^3$–$10^4$ is achievable with $N \sim 10^3$–$10^4$ in dense associative memory models.
+   In practice, $P \sim 10^3–10^4$ is achievable with $N \sim 10^3–10^4$ in dense associative memory models.
 
 ### Summary Comparison
 

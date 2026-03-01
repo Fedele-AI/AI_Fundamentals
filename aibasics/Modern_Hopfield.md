@@ -149,135 +149,82 @@ $$
 which is identical to the modern Hopfield update.  
 Thus a single modern Hopfield layer **is** one self-attention head (with patterns stored as key/value memory).
 
-## 6. Conclusion
 
-By replacing the quadratic similarity term $\sum (\mathbf{s}\cdot\boldsymbol{\xi}^\mu)^2$ with a log-sum-exp  
-and adding the norm regularizer $\frac12\|\mathbf{s}\|^2$,  
-the modern Hopfield network achieves exponential capacity and becomes mathematically equivalent to transformer self-attention.
+## 6. Why Modern Hopfield Has Much Higher Capacity  
+(A Simple Intuitive Explanation)
 
+### Classical Hopfield: Capacity is linear (~0.14N)  
+because energy is an **average** over all patterns
 
-## Appendix: Storage Capacity – Classical vs. Modern Hopfield Networks
-
-### Classical Hopfield Network – Linear Capacity (≈ 0.14N)
-
-**Result (Amit, Gutfreund & Sompolinsky, 1985–1987)**  
-For random binary patterns $\xi^\mu \in \{-1,+1\}^N$ with $P = \alpha N$ stored patterns,  
-the classical Hopfield network with Hebbian weights $W_{ij} = \frac{1}{N} \sum_\mu \xi_i^\mu \xi_j^\mu$ has a critical storage ratio
+In the classical Hopfield model, the energy contribution from each stored pattern is added together:
 
 $$
-\alpha_c \approx 0.138 \quad (\text{or roughly } 0.14N \text{ patterns}).
+E(\mathbf{s}) \propto - \sum_{\mu=1}^P (\mathbf{s} \cdot \boldsymbol{\xi}^\mu)^2
 $$
 
-Beyond this value, the network suffers **catastrophic forgetting**: spurious states proliferate, and the original patterns become unstable fixed points.
-
-#### Proof Sketch (Signal-to-Noise + Replica Analysis)
-
-1. **Local field decomposition**  
-   The local field at neuron $i$ for pattern $\mu$ is
-
-   $$
-   h_i^\mu = \sum_{j \neq i} W_{ij} \xi_j^\mu = \xi_i^\mu + \mathrm{crosstalk term}.
-   $$
-
-   The signal term is $\xi_i^\mu$ (strength 1), while the crosstalk is
-
-   $$
-   \mathrm{crosstalk} = \frac{1}{N} \sum_{\nu \neq \mu} \left( \sum_j \xi_j^\nu \xi_j^\mu \right) \xi_i^\nu.
-   $$
-
-2. **Gaussian approximation**  
-   For random orthogonal-ish patterns, the crosstalk term is approximately Gaussian with variance
-
-   $$
-   \sigma^2 \approx \frac{P-1}{N} \approx \alpha.
-   $$
-
-3. **Stability condition**  
-   For pattern $\mu$ to be stable, the signal must overcome noise:
-
-   $$
-   1 > \kappa \sigma \quad \Rightarrow \quad \alpha < \frac{1}{\kappa^2}.
-   $$
-
-   Mean-field / replica-symmetric analysis gives the critical value $\kappa_c \approx 2.88$ (from the TAP equations or Gardner volume calculation), yielding
-
-   $$
-   \alpha_c \approx \frac{1}{2.88^2} \approx 0.138.
-   $$
-
-Beyond $\alpha_c$, many patterns become unstable, and the network falls into a spin-glass-like phase with many spurious attractors.
-
-### Modern / Dense Hopfield Network – Exponential Capacity
-
-**Result (Krotov & Hopfield 2016, Demircigil et al. 2017, Ramsauer et al. 2020)**  
-In the modern Hopfield network with energy
+This is equivalent to
 
 $$
-E(\mathbf{s}) = \frac{1}{2} \|\mathbf{s}\|^2 - \frac{1}{\beta} \log \sum_{\mu=1}^P \exp(\beta \, \boldsymbol{\xi}^\mu \cdot \mathbf{s}),
+E(\mathbf{s}) \propto - \frac{1}{P} \sum_{\mu=1}^P (\mathbf{s} \cdot \boldsymbol{\xi}^\mu)^2 \quad \text{(average similarity squared)}
 $$
 
-the number of stable fixed points (stored patterns) can scale **exponentially** with the number of neurons $N$:
+Key point: **every stored pattern contributes to the energy with roughly equal weight**, no matter how close or far the current state $\mathbf{s}$ is from any particular pattern.
+
+When many patterns are stored ($P \gg 1$), the sum becomes an average over many roughly uncorrelated random vectors.  
+By the central limit theorem, the total field / similarity term behaves like noise:
 
 $$
-P \sim \exp(c N) \quad \text{for some } c > 0.
+h_i = \sum_j W_{ij} s_j \approx \text{signal from one pattern} + \text{Gaussian noise with variance } \propto \frac{P}{N}
 $$
 
-In practice, $P$ up to several thousands can be stored reliably in networks with $N \sim 10^3$–$10^4$ dimensions.
+For the correct pattern to be stable, its signal (~1) must overcome this growing noise.  
+When $P/N \gtrsim 0.14$, the crosstalk noise becomes larger than the signal → patterns become unstable → capacity collapses.
 
-#### Proof Sketch (Exponential Number of Attractors)
+→ **Capacity is linear** because all patterns interfere with each other all the time (they are averaged together).
 
-1. **Fixed-point condition**  
-   A pattern $\boldsymbol{\xi}^\mu$ is a fixed point if
+### Modern Hopfield: Capacity is exponential  
+because softmax makes **one pattern dominate** (winner-take-all)
 
-   $$
-   \boldsymbol{\xi}^\mu = X \cdot \mathrm{softmax}(\beta X^\top \boldsymbol{\xi}^\mu).
-   $$
+In the modern Hopfield model, the update is
 
-   At high $\beta$, $\mathrm{softmax}(\beta X^\top \boldsymbol{\xi}^\mu)$ becomes very close to a one-hot vector on pattern $\mu$:
+$$
+\mathbf{s}^{(t+1)} = X \cdot \mathrm{softmax}(\beta X^\top \mathbf{s}^{(t)})
+$$
 
-   $$
-   p_\nu \approx \delta_{\nu\mu} \quad \Rightarrow \quad \boldsymbol{\xi}^\mu \approx \boldsymbol{\xi}^\mu,
-   $$
+The softmax function is
 
-   so all stored patterns remain exact (or very close) fixed points even when $P \gg N$.
+$$
+p_\mu = \frac{\exp(\beta \,\boldsymbol{\xi}^\mu \cdot \mathbf{s})}{\sum_\nu \exp(\beta \,\boldsymbol{\xi}^\nu \cdot \mathbf{s})}
+$$
 
-2. **Basin size and crosstalk suppression**  
-   The key difference is the **sharpness** of the log-sum-exp term.  
-   For a corrupted state $\mathbf{s} = \boldsymbol{\xi}^\mu + \boldsymbol{\delta}$ (small noise), the dot products are
+When $\beta$ is reasonably large (or when $\mathbf{s}$ is somewhat close to one pattern), the exponential amplifies differences dramatically:
 
-   $$
-   \boldsymbol{\xi}^\nu \cdot \mathbf{s} \approx
-   \begin{cases}
-   N + \boldsymbol{\xi}^\mu \cdot \boldsymbol{\delta} & \nu = \mu \\
-   \mathcal{O}(\sqrt{N}) + \text{crosstalk} & \nu \neq \mu.
-   \end{cases}
-   $$
+- If $\boldsymbol{\xi}^\mu \cdot \mathbf{s}$ is only slightly larger than the others (e.g. by $O(\sqrt{N})$),  
+  the term $\exp(\beta \,\boldsymbol{\xi}^\mu \cdot \mathbf{s})$ becomes **exponentially larger** than the rest.
+- All other patterns are suppressed **exponentially strongly** → their contribution to the weighted sum becomes negligible.
 
-   At large $\beta$, the exponential suppresses all non-matching terms exponentially:
+→ The update is almost entirely determined by **one winning pattern** — the crosstalk from other patterns is effectively zero (or exponentially small).
 
-   $$
-   \exp(\beta \boldsymbol{\xi}^\nu \cdot \mathbf{s}) \ll \exp(\beta N) \quad \text{for } \nu \neq \mu.
-   $$
+Simple consequence:
 
-   → the softmax is dominated by the correct pattern → **basin of attraction remains large** despite many memories.
+- Even when thousands of patterns are stored, as long as the state is not exactly in the middle between many patterns,  
+  the dynamics quickly select **one dominant attractor**.
+- The probability that a random state lies exactly in a region where many patterns have similar similarity is extremely small when $N$ is large.
+- Therefore the network can have **exponentially many** well-separated, deep attractors — one for each stored pattern.
 
-3. **Exponential number of attractors**  
-   The number of stable states corresponds roughly to the number of directions in which the energy landscape has deep, narrow wells.  
-   Because the log-sum-exp creates **winner-take-all** behavior, the basins remain separated even when patterns are linearly dependent or $P \gg N$.  
-   Theoretical analyses (using random matrix theory or statistical mechanics) show that the number of attractors grows as
+### Intuitive Summary Table
 
-   $$
-   P \lesssim \exp\left( c \frac{N}{\log N} \right) \quad \text{to} \quad \exp(c N)
-   $$
+| Aspect                     | Classical Hopfield                          | Modern Hopfield (softmax)                     |
+|----------------------------|---------------------------------------------|-----------------------------------------------|
+| How patterns contribute    | All patterns added with ~equal weight (average) | Softmax → **one pattern dominates strongly** |
+| Crosstalk / interference   | Grows linearly with $P/N$                   | Suppressed exponentially when $\beta$ is large |
+| Basin shape                | Shallow and overlapping                     | Deep, narrow, almost disjoint                 |
+| Resulting capacity         | Linear: ~0.14N patterns                     | Exponential: $P \sim \exp(cN)$ possible       |
+| Reason                     | All patterns “vote” at the same time        | Winner-take-all dynamics                      |
 
-   depending on the precise model variant and pattern correlation structure.  
-   In practice, $P \sim 10^3–10^4$ is achievable with $N \sim 10^3–10^4$ in dense associative memory models.
+This difference — **averaging vs. winner-take-all via exponential / softmax** — is the fundamental reason the modern Hopfield network can store vastly more patterns without catastrophic interference.
 
-### Summary Comparison
+## 7. Conclusion
 
-| Model                  | Energy term for memories              | Capacity          | Basin shape             | Convergence speed |
-|------------------------|----------------------------------------|-------------------|--------------------------|-------------------|
-| Classical Hopfield     | $-\sum_\mu (\mathbf{s} \cdot \xi^\mu)^2$ | $\sim 0.14N$     | shallow, overlapping    | slow, multi-step  |
-| Modern Hopfield        | $-\frac{1}{\beta} \log \sum_\mu \exp(\beta \mathbf{s} \cdot \xi^\mu)$ | $\exp(cN)$       | deep, narrow, disjoint  | very fast (often 1–5 steps) |
+By replacing the quadratic similarity term $\sum (\mathbf{s}\cdot\boldsymbol{\xi}^\mu)^2$ with a log-sum-exp  and adding the norm regularizer $\frac12\|\mathbf{s}\|^2$, the modern Hopfield network achieves exponential capacity and becomes mathematically equivalent to transformer self-attention.
 
-The exponential capacity of the modern model is the direct consequence of replacing polynomial (quadratic) similarity with an exponential (log-sum-exp) similarity measure.

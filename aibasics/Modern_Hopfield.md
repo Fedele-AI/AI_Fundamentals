@@ -75,13 +75,19 @@ where $\mathrm{LSE}(\mathbf{z}) = \log\sum_i e^{z_i}$.
 - The exponential inside the log-sum-exp creates **extremely sharp** peaks: when $\beta$ is large, the energy is dominated by the single best-matching pattern.
 - Result: the attraction basins become almost disjoint even when $P \gg N$, giving **exponential storage capacity**.
 
-<img src="./Figures/energy_landscape_hopfield.png" alt="energy_landscape" width="30%">
+<div align="center">
+
+<img src="./Figures/energy_landscape_hopfield.png" alt="energy_landscape" width="80%">
+
 
 
 > **Figure caption**  
 > Energy landscapes of classical Hopfield (left: shallow basins) and modern generalized Hopfield (right: deep, narrow wells).  
 > The classical model features broad, shallow attractors leading to slow and sometimes ambiguous convergence,  
 > while the modern model creates sharp, deep wells that enable rapid and reliable convergence even with many stored patterns.
+
+<div>
+
 
 ### Why do we need the quadratic regularizer $\frac12 \|\mathbf{s}\|^2$?
 

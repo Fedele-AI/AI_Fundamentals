@@ -199,8 +199,7 @@ $$
 
 When $\beta$ is reasonably large (or when $\mathbf{s}$ is somewhat close to one pattern), the exponential amplifies differences dramatically:
 
-- If $\boldsymbol{\xi}^\mu \cdot \mathbf{s}$ is only slightly larger than the others (e.g. by $O(\sqrt{N})$),  
-  the term $\exp(\beta \,\boldsymbol{\xi}^\mu \cdot \mathbf{s})$ becomes **exponentially larger** than the rest.
+- If $\boldsymbol{\xi}^\mu \cdot \mathbf{s}$ is only slightly larger than the others, the term $\exp(\beta \,\boldsymbol{\xi}^\mu \cdot \mathbf{s})$ becomes **exponentially larger** than the rest.
 - All other patterns are suppressed **exponentially strongly** → their contribution to the weighted sum becomes negligible.
 
 → The update is almost entirely determined by **one winning pattern** — the crosstalk from other patterns is effectively zero (or exponentially small).

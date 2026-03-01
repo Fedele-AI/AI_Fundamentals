@@ -79,15 +79,12 @@ where $\mathrm{LSE}(\mathbf{z}) = \log\sum_i e^{z_i}$.
 
 <img src="./Figures/energy_landscape_hopfield.png" alt="energy_landscape" width="80%">
 
-
-
 > **Figure caption**  
 > Energy landscapes of classical Hopfield (left: shallow basins) and modern generalized Hopfield (right: deep, narrow wells).  
 > The classical model features broad, shallow attractors leading to slow and sometimes ambiguous convergence,  
 > while the modern model creates sharp, deep wells that enable rapid and reliable convergence even with many stored patterns.
 
-<div>
-
+</div>
 
 ### Why do we need the quadratic regularizer $\frac12 \|\mathbf{s}\|^2$?
 

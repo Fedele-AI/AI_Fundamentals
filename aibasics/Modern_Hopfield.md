@@ -150,78 +150,124 @@ which is identical to the modern Hopfield update.
 Thus a single modern Hopfield layer **is** one self-attention head (with patterns stored as key/value memory).
 
 
-## 6. Why Modern Hopfield Has Much Higher Capacity  
-(A Simple Intuitive Explanation)
 
-### Classical Hopfield: Capacity is linear (~0.14N)  
-because energy is an **average** over all patterns
+## 6. Storage Capacity: Classical vs. Modern (Log-Sum-Exp) Hopfield Networks  
+A Simple Signal–to–Noise Argument
 
-In the classical Hopfield model, the energy contribution from each stored pattern is added together:
+### Classical Hopfield: linear capacity (~0.14N)  
+All patterns contribute equally → crosstalk grows linearly with P
 
-$$
-E(\mathbf{s}) \propto - \sum_{\mu=1}^P (\mathbf{s} \cdot \boldsymbol{\xi}^\mu)^2
-$$
-
-This is equivalent to
+Consider a classical Hopfield network storing P random patterns $ξ^μ$ ∈ ${−1,+1}^N (μ = 1,…,P)$.  The Hebbian weights are
 
 $$
-E(\mathbf{s}) \propto - \frac{1}{P} \sum_{\mu=1}^P (\mathbf{s} \cdot \boldsymbol{\xi}^\mu)^2 \quad \text{(average similarity squared)}
+J_{ij} = \frac{1}{N} \sum_{\mu=1}^P \xi_i^\mu \xi_j^\mu, \quad J_{ii}=0.
 $$
 
-Key point: **every stored pattern contributes to the energy with roughly equal weight**, no matter how close or far the current state $\mathbf{s}$ is from any particular pattern.
-
-When many patterns are stored ($P \gg 1$), the sum becomes an average over many roughly uncorrelated random vectors.  
-By the central limit theorem, the total field / similarity term behaves like noise:
+To check whether a stored pattern (say $ξ^1$) is stable, evaluate the local field at neuron i when the network is at $\ξ^1$:
 
 $$
-h_i = \sum_j W_{ij} s_j \approx \text{signal from one pattern} + \text{Gaussian noise with variance } \propto \frac{P}{N}
+h_i = \sum_j J_{ij} \xi_j^1 = \xi_i^1 + \text{crosstalk}.
 $$
 
-For the correct pattern to be stable, its signal (~1) must overcome this growing noise.  
-When $P/N \gtrsim 0.14$, the crosstalk noise becomes larger than the signal → patterns become unstable → capacity collapses.
-
-→ **Capacity is linear** because all patterns interfere with each other all the time (they are averaged together).
-
-### Modern Hopfield: Capacity is exponential  
-because softmax makes **one pattern dominate** (winner-take-all)
-
-In the modern Hopfield model, the update is
+The **signal** term is
 
 $$
-\mathbf{s}^{(t+1)} = X \cdot \mathrm{softmax}(\beta X^\top \mathbf{s}^{(t)})
+\xi_i^1 \quad \text{(magnitude 1, perfectly aligned)}.
 $$
 
-The softmax function is
+The **crosstalk** (noise) comes from all other patterns:
 
 $$
-p_\mu = \frac{\exp(\beta \,\boldsymbol{\xi}^\mu \cdot \mathbf{s})}{\sum_\nu \exp(\beta \,\boldsymbol{\xi}^\nu \cdot \mathbf{s})}
+\text{crosstalk} = \frac{1}{N} \sum_{\mu \neq 1} \left( \sum_j \xi_j^\mu \xi_j^1 \right) \xi_i^\mu.
 $$
 
-When $\beta$ is reasonably large (or when $\mathbf{s}$ is somewhat close to one pattern), the exponential amplifies differences dramatically:
+Each inner $\sum_j ξ_j^μ ξ_j^1$ is a sum of N independent $\pm 1$ variables → mean 0, variance N.  
+There are P−1 such terms, so the total crosstalk is roughly Gaussian with variance
 
-- If $\boldsymbol{\xi}^\mu \cdot \mathbf{s}$ is only slightly larger than the others, the term $\exp(\beta \,\boldsymbol{\xi}^\mu \cdot \mathbf{s})$ becomes **exponentially larger** than the rest.
-- All other patterns are suppressed **exponentially strongly** → their contribution to the weighted sum becomes negligible.
+$$
+\sigma^2 \approx \frac{P-1}{N} \approx \frac{P}{N}.
+$$
 
-→ The update is almost entirely determined by **one winning pattern** — the crosstalk from other patterns is effectively zero (or exponentially small).
+The typical noise magnitude is therefore
 
-Simple consequence:
+$$
+\sigma_{\text{noise}} \sim \sqrt{\frac{P}{N}}.
+$$
 
-- Even when thousands of patterns are stored, as long as the state is not exactly in the middle between many patterns,  
-  the dynamics quickly select **one dominant attractor**.
-- The probability that a random state lies exactly in a region where many patterns have similar similarity is extremely small when $N$ is large.
-- Therefore the network can have **exponentially many** well-separated, deep attractors — one for each stored pattern.
+For the pattern to be stable, the signal (strength 1) must overcome this noise.  
+When P/N ≳ 0.14 the noise becomes comparable to (or larger than) the signal → patterns destabilize → capacity is **linear in N**.
 
-### Intuitive Summary Table
+**Core reason:** Every pattern contributes roughly equally to the field at every step (the energy is an **average** over all memories). Crosstalk accumulates linearly with the number of patterns.
 
-| Aspect                     | Classical Hopfield                          | Modern Hopfield (softmax)                     |
-|----------------------------|---------------------------------------------|-----------------------------------------------|
-| How patterns contribute    | All patterns added with ~equal weight (average) | Softmax → **one pattern dominates strongly** |
-| Crosstalk / interference   | Grows linearly with $P/N$                   | Suppressed exponentially when $\beta$ is large |
-| Basin shape                | Shallow and overlapping                     | Deep, narrow, almost disjoint                 |
-| Resulting capacity         | Linear: ~0.14N patterns                     | Exponential: $P \sim \exp(cN)$ possible       |
-| Reason                     | All patterns “vote” at the same time        | Winner-take-all dynamics                      |
+### Modern (Log-Sum-Exp) Hopfield: exponential capacity  
+Softmax makes one pattern dominate → crosstalk is exponentially suppressed
 
-This difference — **averaging vs. winner-take-all via exponential / softmax** — is the fundamental reason the modern Hopfield network can store vastly more patterns without catastrophic interference.
+In the modern Hopfield model the update is
+
+$$
+\mathbf{x}' = \sum_{\mu=1}^P w_\mu(\mathbf{x}) \, \boldsymbol{\xi}^\mu, \qquad w_\mu(\mathbf{x}) = \frac{\exp(\beta  \mathbf{x}^\top \boldsymbol{\xi}^\mu)}{\sum_\nu \exp(\beta  \mathbf{x}^\top \boldsymbol{\xi}^\nu)},
+$$
+
+i.e. a softmax-weighted average of the stored patterns (keys/values).
+
+To see why a stored pattern $ξ^1$ remains a stable attractor, consider a state x close to $ξ^1$.  
+Write the similarities:
+
+$$
+\mathbf{x}^\top \boldsymbol{\xi}^1 = s \quad (\text{close to } 1), \qquad \mathbf{x}^\top \boldsymbol{\xi}^\mu = z_\mu \quad (\mu \neq 1).
+$$
+
+For random unit vectors in high dimension, $z_μ ≈ \mathcal{N}(0, 1/d)$. The largest $z_μ$ (extreme value) is typically
+
+$$
+\max_{\mu \neq 1} z_\mu \sim \sqrt{\frac{2 \log P}{d}}.
+$$
+
+The softmax weight on the correct pattern is
+
+$$
+w_1(\mathbf{x}) = \frac{\exp(\beta s)}{\exp(\beta s) + \sum_{\mu \neq 1} \exp(\beta z_\mu)}.
+$$
+
+The denominator is dominated by the largest noise term:
+
+$$
+\sum_{\mu \neq 1} \exp(\beta z_\mu) \lesssim \exp\left( \beta \sqrt{\frac{2 \log P}{d}} \right).
+$$
+
+For $w_1$ to stay close to 1 (so $x' \approx ξ^1$), we need the signal term to overwhelm the noise:
+
+$$
+\exp(\beta s) \gg \exp\left( \beta \sqrt{\frac{2 \log P}{d}} \right).
+$$
+
+Taking logs (and assuming $s \approx 1$):
+
+$$
+\beta \gg \beta \sqrt{\frac{2 \log P}{d}} \quad \Rightarrow \quad 1 \gg \sqrt{\frac{2 \log P}{d}} \quad \Rightarrow \quad \log P \ll \frac{d}{2}.
+$$
+
+Thus
+
+$$
+P \ll \exp\left( \frac{d}{2} \right).
+$$
+
+The number of reliably storable patterns can therefore grow **exponentially** with dimension d (i.e. $P = O(\exp(c d))$ for some $c > 0$).
+
+**Core reason:** The softmax + exponential creates a **winner-take-all** mechanism. When the state is even slightly closer to one pattern, that pattern’s contribution is exponentially amplified while all others are exponentially suppressed. Crosstalk does **not** accumulate linearly with P — it is controlled by the **single largest** overlap, which grows only logarithmically. This allows exponentially many nearly orthogonal attractors.
+
+### Quick Comparison
+
+| Property                  | Classical Hopfield                       | Modern (Log-Sum-Exp) Hopfield              |
+|---------------------------|------------------------------------------|---------------------------------------------|
+| Crosstalk behavior        | All patterns contribute equally → adds up | One pattern dominates → others exponentially suppressed |
+| Noise scaling             | σ ~ √(P/N)                               | $σ_{eff} \sim \sqrt{\log P / d}$                       |
+| Capacity                  | linear (~0.14N)                          | exponential  $O(exp(c d))$                  |
+| Key mathematical reason   | quadratic / average similarity           | exponential / softmax winner-take-all       |
+
+This difference — **averaging all patterns** vs. **exponentially favoring one** — explains why modern Hopfield networks can store vastly more patterns without catastrophic interference.
+
 
 ## 7. Conclusion
 

@@ -70,6 +70,9 @@ The term “Artificial Intelligence” is everywhere — but it’s often misund
 
 You’ll explore core models and techniques, from basic neural networks to complex architectures like transformers, paired with hands-on coding exercises. Along the way, we emphasize the limitations, risks, and philosophical questions that come with generative models. By the end, you’ll not only have the skills to build these systems — you’ll also have the language to talk about them honestly!
 
+> [!IMPORTANT]
+> Want to visualize these concepts alongside your learning journey? We built a free GPLv3 web visualizer - covering everything from binary fundamentals to a Music Transformer Rust-based WebAssembly demo - at https://mlvisualizer.org/
+
 ---
 
 ## Table of Contents
